@@ -1,0 +1,95 @@
+[
+    {
+        "task_id": "svamp-5",
+        "question": "There were number0 dollars in Olivia's wallet. She collected number1 more dollars from an atm. After she visited a supermarket there were number2 dollars left. How much more money did she collect at the atm than she spent at the supermarket?",
+        "equation": "( number1 - ( (number0 + number1) - number2 ) )",
+        "answer": 46.0,
+        "type": "Subtraction",
+        "numbers": {
+            "number0": 3.0,
+            "number1": 49.0,
+            "number2": 49.0
+        },
+        "steps_ct": 3
+    },
+    {
+        "task_id": "svamp-241",
+        "question": "A grocery store had number0 bottles of regular soda, number1 bottles of diet soda and number2 bottles of lite soda. How many more bottles of regular soda did they have than diet soda?",
+        "equation": "( number0 - number1 )",
+        "answer": 21.0,
+        "type": "Subtraction",
+        "numbers": {
+            "number0": 81.0,
+            "number1": 60.0,
+            "number2": 60.0
+        },
+        "steps_ct": 1
+    },
+    {
+        "task_id": "svamp-273",
+        "question": "The ring toss game at the carnival made number0 dollars in the first number1 days and number2 dollars in the remaining number3 days. How much did they make per day in the remaining number3 days at the carnival?",
+        "equation": "( number2 / number3 )",
+        "answer": 2.0,
+        "type": "Common-Division",
+        "numbers": {
+            "number0": 325.0,
+            "number1": 154.0,
+            "number2": 114.0,
+            "number3": 57.0
+        }
+    },
+    {
+        "task_id": "svamp-347",
+        "question": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked number0 chocolate chip cookies and number1 raisin cookies yesterday. And she baked number2 raisin cookies and number3 chocolate chip cookies this morning. How many chocolate chip cookies did Helen bake?",
+        "equation": "( 527.0 + 554.0 )",
+        "answer": 1081.0,
+        "type": "Addition",
+        "numbers": {
+            "number0": 527.0,
+            "number1": 86.0,
+            "number2": 86.0,
+            "number3": 554.0
+        }
+    },
+    {
+        "task_id": "svamp-384",
+        "question": "The ring toss game at the carnival made number0 dollars in the first number1 days and number2 dollars in the remaining number3 days. How much did they make per day in the first number1 days at the carnival?",
+        "equation": "( 120.0 / 20.0 )",
+        "answer": 6.0,
+        "type": "Common-Division",
+        "numbers": {
+            "number0": 120.0,
+            "number1": 20.0,
+            "number2": 66.0,
+            "number3": 16.0
+        },
+        "steps_ct": 1
+    },
+    {
+        "task_id": "svamp-712",
+        "question": "A book has number0 chapters. The first chapter is number1 pages long the second chapter is number2 pages long and the third chapter is number3 pages long. How many more pages does the second chapter have than the third chapter?",
+        "equation": "( number2 - number3 )",
+        "answer": 15.0,
+        "type": "Subtraction",
+        "numbers": {
+            "number0": 3.0,
+            "number1": 35.0,
+            "number2": 18.0,
+            "number3": 3.0
+        },
+        "steps_ct": 1
+    },
+    {
+        "task_id": "svamp-977",
+        "question": "David did number0 more push-ups but number1 less crunches than Zachary in gym class today. If Zachary did number2 push-ups and number3 crunches how many more push-ups than crunches did Zachary do?",
+        "equation": "( number2 - number3 )",
+        "answer": 25.0,
+        "type": "Subtraction",
+        "numbers": {
+            "number0": 36.0,
+            "number1": 33.0,
+            "number2": 58.0,
+            "number3": 33.0
+        }
+    }
+]

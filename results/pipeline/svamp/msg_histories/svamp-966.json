@@ -1,0 +1,29 @@
+{
+    "equation": "( 78.0 * 38.0 ) / 19.0",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "A mailman has to give 38 pieces of junk mail to each of the 78 blocks. If there are 19 houses on a block how many pieces of junk mail should he give each house?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "78.0 * 38.0\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( 78.0 * 38.0 ) / 19.0\nWe are finished."
+        }
+    ]
+}

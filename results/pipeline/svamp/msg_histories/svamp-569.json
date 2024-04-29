@@ -1,0 +1,21 @@
+{
+    "equation": "32.0 / 8.0",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "Paige was helping her mom plant flowers in 8 flowerbeds. They planted 32 seeds altogether. If they put same number of seeds in each flower bed how many seeds did they plant in each flowerbed?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "32.0 / 8.0\nWe are finished."
+        }
+    ]
+}

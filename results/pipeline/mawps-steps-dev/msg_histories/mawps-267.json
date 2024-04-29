@@ -1,0 +1,45 @@
+{
+    "equation": "( ( ( number0 + number1 ) + number2 ) - number3 ) - number4",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "Luke had number0 stickers. He bought number1 stickers from a store in the mall and got number2 stickers for his birthday. Then Luke gave number3 of the stickers to his sister and used number4 to decorate a greeting card. How many stickers does Luke have left?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "number0 + number1\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( number0 + number1 ) + number2\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( ( number0 + number1 ) + number2 ) - number3\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( ( ( number0 + number1 ) + number2 ) - number3 ) - number4\nWe are finished."
+        }
+    ]
+}

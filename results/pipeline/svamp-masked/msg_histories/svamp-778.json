@@ -1,0 +1,21 @@
+{
+    "equation": "number3 - number2",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "David did number0 more push-ups but number1 less crunches than Zachary in gym class today. If Zachary did number2 push-ups and number3 crunches how many more crunches than push-ups did Zachary do?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "number3 - number2\nWe are finished."
+        }
+    ]
+}

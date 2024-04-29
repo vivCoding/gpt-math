@@ -1,0 +1,29 @@
+{
+    "equation": "( 88.0 - 34.0 ) / 6.0",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "A pet store had 88.0 puppies. In one day they sold 34.0 of them and put the rest into cages with 6.0 in each cage. How many cages did they use?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "88.0 - 34.0\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( 88.0 - 34.0 ) / 6.0\nWe are finished."
+        }
+    ]
+}

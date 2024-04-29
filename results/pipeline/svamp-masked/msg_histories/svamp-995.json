@@ -1,0 +1,29 @@
+{
+    "equation": "( number0 / number1 ) / number2",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "Paige was helping her mom plant flowers and together they planted number0 seeds. They put number1 seeds in each flower bed and only number2 seeds grew into flowers in each flower bed. How many flower beds did they have?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "number0 / number1\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( number0 / number1 ) / number2\nWe are finished."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "equation": "number0 * number1",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "Rachel has number0 apple trees. She picked number1 apples from each of her trees. Now the trees have a total number2 apples still on them. How many apples were there on all trees initially?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "number0 * number1\nWe are finished."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "equation": "( 829.0 - 45.0 ) / 85.0",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 45 visitors came to the Buckingham palace on the previous day. If 829 people visited the Buckingham palace within the past 85 days how many visitors visited the Buckingham palace on that day?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "829.0 - 45.0\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( 829.0 - 45.0 ) / 85.0\nWe are finished."
+        }
+    ]
+}

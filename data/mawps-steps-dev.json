@@ -1,0 +1,5335 @@
+[
+    {
+        "task_id": "mawps-0",
+        "question": "Bryan took a look at his books as well. If Bryan has number0 books in each of his number1 bookshelves, how many books does he have in total?",
+        "numbers": {
+            "number0": "56.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 504.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-1",
+        "question": "For the fifth grade play, the chairs have been put into number0 rows with number1 chairs in each row. How many chairs have been put out for the play?",
+        "numbers": {
+            "number0": "27.0",
+            "number1": "16.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 432.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-2",
+        "question": "There are number0 short trees and number1 tall trees currently in the park. Park workers will plant number2 short trees today. How many short trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "41.0",
+            "number1": "44.0",
+            "number2": "57.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 98,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-3",
+        "question": "Conner has number0 dollars in his bank account. Every month he spends number1 dollars. He does not add money to the account. How much money will Conner have in his account after number2 months?",
+        "numbers": {
+            "number0": "25000.0",
+            "number1": "1500.0",
+            "number2": "8.0"
+        },
+        "equation": "number0 - ( number1 * number2 )",
+        "answer": 13000.0,
+        "steps": [
+            "number1 * number2",
+            "number0 - ( number1 * number2 )"
+        ]
+    },
+    {
+        "task_id": "mawps-4",
+        "question": "There are number0 dogwood trees currently in the park. Park workers will plant number1 dogwood trees today. How many dogwood trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "49.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 83,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-5",
+        "question": "Maggi had number0 packages of cupcakes. There are number1 cupcakes in each package. She ate number2 cupcakes. How many are left?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "4.0",
+            "number2": "5.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 12.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-6",
+        "question": "You deposit number0 dollars in a savings account that pays an annual interest rate of number1 %. How much simple interest would you earn in number2 years, in dollars?",
+        "numbers": {
+            "number0": "70.0",
+            "number1": "3.0",
+            "number2": "2.5"
+        },
+        "equation": "( ( number0 * number1 ) * number2 ) * 0.01",
+        "answer": 5.25,
+        "steps": [
+            "number0 * number1",
+            "( number0 * number1 ) * number2",
+            "( ( number0 * number1 ) * number2 ) * 0.01"
+        ]
+    },
+    {
+        "task_id": "mawps-7",
+        "question": "Emily collects number0 cards. Emily 's father gives Emily number1 more. Bruce has number2 apples. How many cards does Emily have?",
+        "numbers": {
+            "number0": "63.0",
+            "number1": "7.0",
+            "number2": "13.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 70.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-8",
+        "question": "A chef needs to cook number0 potatoes. He has already cooked number1. If each potato takes number2 minutes to cook, how long will it take him to cook the rest?",
+        "numbers": {
+            "number0": "15.0",
+            "number1": "8.0",
+            "number2": "9.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 63.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-9",
+        "question": "It takes number0 apples to make number1 pie. How many apples does it take to make number2 pies?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "1.0",
+            "number2": "504.0"
+        },
+        "equation": "number0 * number2",
+        "answer": 2016.0,
+        "steps": [
+            "number0 * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-10",
+        "question": "Isabel baked number0 brownies, but needed number1 total for her party. If she used number2 cups of flour on each one, how much cups of flour does she still need?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "5.0",
+            "number2": "5.0"
+        },
+        "equation": "( number1 - number0 ) * number1",
+        "answer": 10.0,
+        "steps": [
+            "number1 - number0",
+            "( number1 - number0 ) * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-11",
+        "question": "Mary is baking a cake. The recipe calls for number0 cups of flour and number1 cups of sugar. She already put in number2 cups of flour. How many cups of flour does she need to add?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "3.0",
+            "number2": "2.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 5,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-12",
+        "question": "Rachel bought two coloring books. One had number0 pictures and the other had number1. After one week she had already colored number2 of the pictures. How many pictures does she still have to color?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "39.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 59.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-13",
+        "question": "Sean has number0 apples. Susan gives Sean number1 more. Later, Sean buys number2 tickets at the store. How many apples does Sean have in all?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "8.0",
+            "number2": "18.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 17.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-14",
+        "question": "A DVD book holds number0 DVDs. There are number1 DVDs already in the book. How many more DVDs can be put in the book?",
+        "numbers": {
+            "number0": "126.0",
+            "number1": "81.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 45.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-15",
+        "question": "Amy starts with number0 peanuts. Gerald gives Amy number1 more. How many peanuts does Amy end with?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "55.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 62.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-16",
+        "question": "Frank made number0 dollars mowing lawns over the summer. If he spent number1 dollars buying new mower blades, how many number2 dollar games could he buy with the money he had left?",
+        "numbers": {
+            "number0": "19.0",
+            "number1": "11.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 4.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-17",
+        "question": "James has number0 balloons. Amy has number1 balloons. How many more balloons does James have than Amy?",
+        "numbers": {
+            "number0": "232.0",
+            "number1": "101.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 131.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-18",
+        "question": "Beth has number0 packs of crayons. Each pack has number1 crayons in it. She also has number2 extra crayons. How many crayons does Beth have altogether?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "10.0",
+            "number2": "6.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 40.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-19",
+        "question": "Bianca had number0 coloring books. If she gave away number1 of them, but then bought number2 more, how many would she have total?",
+        "numbers": {
+            "number0": "45.0",
+            "number1": "6.0",
+            "number2": "20.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 59.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-20",
+        "question": "A company invited number0 people to a luncheon, but number1 of them did n't show up. If the tables they had held number2 people each, how many tables do they need?",
+        "numbers": {
+            "number0": "18.0",
+            "number1": "12.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-21",
+        "question": "An oil pipe in the sea broke. Before engineers started to fix the pipe, number0 liters of oil leaked into the water. While the engineers worked, the pipe leaked number1 liters of oil. In all, how many liters of oil leaked into the water?",
+        "numbers": {
+            "number0": "6522.0",
+            "number1": "5165.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 11687.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-22",
+        "question": "Sara has saved number0 quarters from washing cars. How many cents does Sara have?",
+        "numbers": {
+            "number0": "11.0"
+        },
+        "equation": "25.0 * number0",
+        "answer": 275.0,
+        "steps": [
+            "25.0 * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-23",
+        "question": "A construction company ordered number0 ton of concrete, number1 ton of bricks, and number2 ton of stone. How many tons of material did the company order in all?",
+        "numbers": {
+            "number0": "0.16666666666666666",
+            "number1": "0.16666666666666666",
+            "number2": "0.5"
+        },
+        "equation": "( number0 + number0 ) + number2",
+        "answer": 0.8333333333333334,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-24",
+        "question": "Jessica grew number0 watermelons and number1 carrots, but the rabbits ate number2 watermelons. How many watermelons does Jessica have?",
+        "numbers": {
+            "number0": "35.0",
+            "number1": "30.0",
+            "number2": "27.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 8,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-25",
+        "question": "Jazmin had number0 dolls and Geraldine had number1 dolls. If they put their dolls together, how many would they have?",
+        "numbers": {
+            "number0": "1209.0",
+            "number1": "2186.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 3395.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-26",
+        "question": "Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry number0 trays at a time. If he had to pick up number1 trays from one table and number2 trays from another, how many trips will he make?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "9.0",
+            "number2": "7.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 2.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-27",
+        "question": "Mrs. Hilt measured the distance from her desk to the water fountain. It was number0 feet. How many feet will Mrs. Hilt walk on her trips to the fountain if she goes to the water fountain number1 times today?",
+        "numbers": {
+            "number0": "30.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 120.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-28",
+        "question": "Last year, number0 people were born in a country, and number1 people immigrated to it. How many new people began living in the country last year?",
+        "numbers": {
+            "number0": "90171.0",
+            "number1": "16320.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 106491.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-29",
+        "question": "Christine wandered number0 miles at number1 miles per hour. How long did Christine wander?",
+        "numbers": {
+            "number0": "20.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-30",
+        "question": "Emily was planting vegetables in her garden. She started with number0 seeds and planted number1 of them in the big garden and in each of her small gardens put number2 seeds each. How many small gardens did Emily have?",
+        "numbers": {
+            "number0": "42.0",
+            "number1": "36.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 3.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-31",
+        "question": "Dana earns $ number0 per hour. She worked number1 hours on Friday, number2 hours on Saturday, and number3 hours on Sunday. How much money did Dana earn in all?",
+        "numbers": {
+            "number0": "13.0",
+            "number1": "9.0",
+            "number2": "10.0",
+            "number3": "3.0"
+        },
+        "equation": "( ( number1 + number2 ) + number3 ) * number0",
+        "answer": 286.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) + number3",
+            "( ( number1 + number2 ) + number3 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-32",
+        "question": "Nancy picked number0 carrots from her garden. If she threw out number1 of them and then picked number2 more the next day, how many carrots would she have total?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "2.0",
+            "number2": "21.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 31.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-33",
+        "question": "My dog had some bones. Then, he dug up number0 bones. Now he has number1 bones. How many bones did he start with?",
+        "numbers": {
+            "number0": "367.0",
+            "number1": "860.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 493.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-34",
+        "question": "There are number0 gallons of water in Becky 's fish tank. If Becky adds number1 gallons more, how many gallons will there be in all?",
+        "numbers": {
+            "number0": "7.75",
+            "number1": "7.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 14.75,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-35",
+        "question": "While playing a trivia game, Adam answered number0 questions correct in the first half and number1 questions correct in the second half. If each question was worth number2 points, what was his final score?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "5.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 + number0 ) * number0",
+        "answer": 50.0,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-36",
+        "question": "Haley and her friends were recycling paper for their class. For every number0 pounds they recycled they earned one point. If Haley recycled number1 pounds and her friends recycled number2 pounds, how many points did they earn?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "11.0",
+            "number2": "16.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 9.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-37",
+        "question": "Mike had number0 peaches at his roadside fruit dish. He went to the orchard and picked peaches to stock up. There are now number1 peaches. how many did he pick?",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "86.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 52,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-38",
+        "question": "Paige was unboxing some of her old winter clothes. She found number0 boxes of clothing and inside each box there were number1 scarves and number2 mittens. How many pieces of winter clothing did Paige have total?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "5.0",
+            "number2": "5.0"
+        },
+        "equation": "( number1 + number1 ) * number0",
+        "answer": 60.0,
+        "steps": [
+            "number1 + number1",
+            "( number1 + number1 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-39",
+        "question": "Sally saw number0 dozen birds in a tree. How many birds did Sally see?",
+        "numbers": {
+            "number0": "1.0"
+        },
+        "equation": "12.0 * number0",
+        "answer": 12.0,
+        "steps": [
+            "12.0 * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-40",
+        "question": "A waiter had number0 customers in his section. If number1 of them left and the rest of his tables had number2 people at each table, how many tables did he have?",
+        "numbers": {
+            "number0": "21.0",
+            "number1": "12.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 3.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-41",
+        "question": "Todd has some gum. Steve gave him number0 more pieces of gum. Now Todd has number1 pieces of gum. How many pieces did Todd have to start with?",
+        "numbers": {
+            "number0": "16.0",
+            "number1": "54.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 38.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-42",
+        "question": "Mike made number0 dollars mowing lawns over the summer. If he spent number1 dollars buying new mower blades, how many number2 dollar games could he buy with the money he had left?",
+        "numbers": {
+            "number0": "69.0",
+            "number1": "24.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-43",
+        "question": "Gwen was organizing her book case making sure each of the shelves had exactly number0 books on it. If she had number1 shelves of mystery books and number2 shelves of picture books, how many books did she have total?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 32.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-44",
+        "question": "Paul had saved up number0 dollars. If he received another number1 dollars for his allowance, how many number2 dollar toys could he buy?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "11.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 3.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-45",
+        "question": "Mary starts with number0 eggs. She finds another number1. How many eggs does Mary end with?",
+        "numbers": {
+            "number0": "27.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 31.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-46",
+        "question": "Brandy made trail mix for a backpacking trip. She used number0 pound of peanuts, number1 pound of chocolate chips, and number2 pound of raisins. How many pounds of trail mix did Brandy make?",
+        "numbers": {
+            "number0": "0.16666666666666666",
+            "number1": "0.16666666666666666",
+            "number2": "0.08333333333333333"
+        },
+        "equation": "( number0 + number0 ) + number2",
+        "answer": 0.4166666666666667,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-47",
+        "question": "Bridget weighs number0 pounds. Martha weighs number1 pounds. How much heavier is Bridget than Martha?",
+        "numbers": {
+            "number0": "39.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 37.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-48",
+        "question": "For Halloween Bianca received number0 pieces of candy. She ate number1 pieces then placed the rest into piles with number2 in each pile. How many piles could she make?",
+        "numbers": {
+            "number0": "78.0",
+            "number1": "30.0",
+            "number2": "8.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 6.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-49",
+        "question": "There are number0 pencils in the drawer. Sara placed number1 pencils in the drawer. How many pencils are now there in all?",
+        "numbers": {
+            "number0": "115.0",
+            "number1": "100.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 215,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-50",
+        "question": "While playing at the arcade, Luke won number0 tickets playing ' whack a mole ' and number1 tickets playing ' skee ball '. If he was trying to buy candy that cost number2 tickets a piece, how many could he buy?",
+        "numbers": {
+            "number0": "2.0",
+            "number1": "13.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-51",
+        "question": "A multi - national corporation has number0 part - time employees and number1 full - time employees. How many employees work for the corporation?",
+        "numbers": {
+            "number0": "2041.0",
+            "number1": "63093.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 65134.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-52",
+        "question": "A box of books weighs number0 pounds. Each book weighs number1 pounds. How many books are there in the box?",
+        "numbers": {
+            "number0": "42.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 14.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-53",
+        "question": "You have number0 balloons and your friend has number1 balloons. How many more balloons do you have than your friend?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-54",
+        "question": "At lunch a waiter had number0 customers and number1 of them did n't leave a tip. If he got $ number2 each from the ones who did tip, how much money did he earn?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 15.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-55",
+        "question": "There are number0 students trying out for the school 's trivia teams. If number1 of them did n't get picked for the team and the rest were put into number2 groups, how many students would be in each group?",
+        "numbers": {
+            "number0": "17.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 4.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-56",
+        "question": "An oil pipe in the sea broke. Before engineers started to fix the pipe, number0 gallons of oil leaked into the water. A total of number1 gallons of oil leaked before the pipe was fixed. How many gallons of oil leaked while the engineers were fixing the pipe?",
+        "numbers": {
+            "number0": "2475.0",
+            "number1": "6206.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 3731.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-57",
+        "question": "If Benjamin skated number0 kilometers at number1 kilometers per hour, how long was Benjamin skating?",
+        "numbers": {
+            "number0": "80.0",
+            "number1": "10.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 8.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-58",
+        "question": "A pet store had number0 puppies. In one day they sold number1 of them and put the rest into cages with number2 in each cage. How many cages did they use?",
+        "numbers": {
+            "number0": "88.0",
+            "number1": "34.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-59",
+        "question": "Dave bought number0 boxes of chocolate candy and gave number1 to his little brother. If each box has number2 pieces inside it, how many pieces did Dave still have?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 21.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-60",
+        "question": "Mike found number0 seashells and number1 starfish, but number2 of the seashells were broken. How many unbroken seashells did Mike find?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "4.0",
+            "number2": "4.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 2,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-61",
+        "question": "There are number0 students trying out for the school 's trivia teams. If number1 of them did n't get picked for the team and the rest were put into number2 groups, how many students would be in each group?",
+        "numbers": {
+            "number0": "64.0",
+            "number1": "36.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 7.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-62",
+        "question": "Mrs. Hilt bought number0 pizzas for $ number1 each. What was the total amount she paid for the three pizzas?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 24.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-63",
+        "question": "The school cafeteria ordered number0 red apples and number1 green apples for students lunches. But, if only number2 students wanted fruit, how many extra did the cafeteria end up with?",
+        "numbers": {
+            "number0": "43.0",
+            "number1": "32.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 73.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-64",
+        "question": "There were number0 girls and number1 boys trying out for the schools basketball team. If only number2 of them got called back, how many students did n't make the cut?",
+        "numbers": {
+            "number0": "39.0",
+            "number1": "4.0",
+            "number2": "26.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 17.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-65",
+        "question": "Each ticket costs $ number0. How much do number1 tickets cost?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 36.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-66",
+        "question": "Recently, the value of Kate 's retirement fund decreased by $ number0. If her fund was worth $ number1 before, how much is it worth now?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "1472.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 1460.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-67",
+        "question": "A sandbox is number0 centimeters long and number1 centimeters wide. How many square centimeters of ground does the sandbox cover?",
+        "numbers": {
+            "number0": "312.0",
+            "number1": "146.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 45552.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-68",
+        "question": "A pet store has number0 bird cages. If each cage has number1 parrots and number2 parakeets in it, how many birds does the pet store have total?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "2.0",
+            "number2": "6.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 72.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-69",
+        "question": "Mrs. Hilt bought an ice cream cone for number0 cents. How much would number1 ice cream cones cost?",
+        "numbers": {
+            "number0": "99.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 198.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-70",
+        "question": "Sally has number0 blue balloons. Fred has number1 times more blue balloons than Sally. How many blue balloons does Fred have now?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 18.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-71",
+        "question": "If Joan bicycled number0 miles at number1 miles per hour, how long was Joan travelling?",
+        "numbers": {
+            "number0": "25.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-72",
+        "question": "Each child has number0 bottle caps. If there are number1 children, how many bottle caps are there in total?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 45.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-73",
+        "question": "Jesse \u2019 s room is number0 feet long and number1 feet wide. How much carpet does she need to cover the whole floor?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 96.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-74",
+        "question": "There are number0 cupcakes for number1 children to share. How much will each person get if they share the cupcakes equally?",
+        "numbers": {
+            "number0": "96.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 12.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-75",
+        "question": "Nancy has number0 black balloons. Mary has number1 times more black balloons than Nancy. How many black balloons does Mary have now?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 28.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-76",
+        "question": "The junior ranger asked Christian to help him place number0 seedlings in packets. If every packet needs to contain number1 seeds, how many packets do they need?",
+        "numbers": {
+            "number0": "420.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 60.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-77",
+        "question": "A pet store has number0 bird cages. If each cage has number1 parrots and number2 parakeets in it, how many birds does the pet store have total?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "6.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 + number2 ) * number0",
+        "answer": 48.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-78",
+        "question": "For Halloween Haley scored number0 pieces of candy. She ate number1 pieces the first night and then her sister gave her number2 more pieces. How many pieces of candy does Haley have now?",
+        "numbers": {
+            "number0": "33.0",
+            "number1": "17.0",
+            "number2": "19.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 35.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-79",
+        "question": "There were originally number0 houses in Lincoln County. During a housing boom, developers built number1. How many houses are there now in Lincoln County?",
+        "numbers": {
+            "number0": "20817.0",
+            "number1": "97741.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 118558.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-80",
+        "question": "The Hawks scored number0 touchdowns worth number1 points each. How many points do they have?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 21.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-81",
+        "question": "Sara picked number0 pears and Tim picked number1 pears from the pear tree. How many pears were picked in total?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 11.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-82",
+        "question": "Soft drinks are on sale at the grocery store for number0 dollars for a number1 pack. How much would each can of soft drink cost if purchased individually, in dollars?",
+        "numbers": {
+            "number0": "2.99",
+            "number1": "12.0"
+        },
+        "equation": "number1 / number0",
+        "answer": 0.25,
+        "steps": [
+            "number1 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-83",
+        "question": "Paige had number0 math problems and number1 science problems for homework. If she finished number2 of the problems at school, how many problems did she have to do for homework?",
+        "numbers": {
+            "number0": "43.0",
+            "number1": "12.0",
+            "number2": "44.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 11.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-84",
+        "question": "The school cafeteria ordered number0 red apples and number1 green apples for students lunches. But, if only number2 students wanted fruit, how many extra did the cafeteria end up with?",
+        "numbers": {
+            "number0": "25.0",
+            "number1": "17.0",
+            "number2": "10.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 32.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-85",
+        "question": "Mandy made an apple pie. She used number0 tablespoon of cinnamon and number1 tablespoon of nutmeg. How much more cinnamon than nutmeg did Mandy use?",
+        "numbers": {
+            "number0": "0.6666666666666666",
+            "number1": "0.5"
+        },
+        "equation": "number0 - number1",
+        "answer": 0.16666666666666666,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-86",
+        "question": "Bridget has number0 Skittles. Henry has number1 Skittles. If Henry gives all of his Skittles to Bridget, how many Skittles will Bridget have?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 + number0",
+        "answer": 8.0,
+        "steps": [
+            "number0 + number0"
+        ]
+    },
+    {
+        "task_id": "mawps-87",
+        "question": "A textbook costs a bookstore number0 dollars, and the store sells it for number1 dollars. Find the amount of profit based on the selling price.",
+        "numbers": {
+            "number0": "44.0",
+            "number1": "55.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 11.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-88",
+        "question": "Each child has number0 bottle caps. If there are number1 children, how many bottle caps are there in total?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 45.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-89",
+        "question": "While playing a trivia game, Mike answered number0 questions correct in the first half and number1 questions correct in the second half. If each question was worth number2 points, what was his final score?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 + number1 ) * number0",
+        "answer": 24.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-90",
+        "question": "At Mrs. Hilt 's house, there was number0 inches of snow, and Brecknock Elementary School received number1 inches of snow. How much more snow did Mrs. Hilt 's house have?",
+        "numbers": {
+            "number0": "29.0",
+            "number1": "17.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 12.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-91",
+        "question": "At a company picnic number0 managers and number1 employees decided to start a game of volleyball. If they split into number2 teams how many people would be on each team?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "15.0",
+            "number2": "8.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 3.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-92",
+        "question": "There were number0 friends playing a video game online when number1 more players joined the game. If each player had number2 lives, how many lives did they have total?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "2.0",
+            "number2": "7.0"
+        },
+        "equation": "( number0 + number1 ) * number0",
+        "answer": 63.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-93",
+        "question": "Anna starts with number0 candies. She gets number1 more from Larry. How many candies does Anna end with?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "86.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 91.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-94",
+        "question": "A worksheet had number0 problems on it. If a teacher had number1 worksheets to grade and had already graded number2 of them, how many more problems does she have to grade?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "9.0",
+            "number2": "5.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 16.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-95",
+        "question": "Mrs. Hilt saw number0 bees in the hive. The next day she saw number1 times that many. How many bees did she see on the second day?",
+        "numbers": {
+            "number0": "144.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 432.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-96",
+        "question": "Fred has number0 red balloons, Sam has number1 red balloons, and Dan has number2 red balloons. The balloons cost number3 dollars. How many red balloons do they have in all?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "46.0",
+            "number2": "16.0",
+            "number3": "10.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 72,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-97",
+        "question": "Evelyn starts with number0 Skittles. She shares number1 with Christine. How many Skittles does Evelyn end with?",
+        "numbers": {
+            "number0": "76.0",
+            "number1": "72.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 4.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-98",
+        "question": "A carpenter bought a piece of wood that was number0 centimeters long. Then he sawed number1 centimeters off the end. How long is the piece of wood now?",
+        "numbers": {
+            "number0": "8.9",
+            "number1": "2.3"
+        },
+        "equation": "number0 - number1",
+        "answer": 6.6,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-99",
+        "question": "A store had number0 oranges in a bin. If they threw away number1 of the old ones and put number2 new ones in the bin how many would be in the bin?",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "20.0",
+            "number2": "13.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 27.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-100",
+        "question": "Tim has number0 books. Mike has number1 books. How many books do they have together?",
+        "numbers": {
+            "number0": "22.0",
+            "number1": "20.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 42.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-101",
+        "question": "Melanie had number0 dimes in her bank. Her dad gave her number1 dimes and her mother gave her number2 dimes. How many dimes does Melanie have now?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "8.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 19,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-102",
+        "question": "A car traveled number0 kilometers in number1 hours. What was its average speed?",
+        "numbers": {
+            "number0": "715.0",
+            "number1": "11.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 65.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-103",
+        "question": "There are number0 dogwood trees currently in the park. Park workers will plant number1 dogwood trees today and number2 dogwood trees tomorrow. How many dogwood trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "3.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 12,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-104",
+        "question": "There are number0 bottle caps in each box. How many bottle caps are in number1 boxes?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 54.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-105",
+        "question": "Gwen was organizing her book case making sure each of the shelves had exactly number0 books on it. If she had number1 shelves of mystery books and number2 shelves of picture books, how many books did she have total?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "3.0",
+            "number2": "5.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 72.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-106",
+        "question": "Megan was organizing her book case making sure each of the shelves had exactly number0 books on it. If she had number1 shelves of mystery books and number2 shelves of picture books, how many books did she have total?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "8.0",
+            "number2": "2.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 70.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-107",
+        "question": "Karen added number0 cup of walnuts to a batch of trail mix. Later, she added number1 cup of almonds. How many cups of nuts did Karen put in the trail mix in all?",
+        "numbers": {
+            "number0": "0.25",
+            "number1": "0.25"
+        },
+        "equation": "number0 + number0",
+        "answer": 0.5,
+        "steps": [
+            "number0 + number0"
+        ]
+    },
+    {
+        "task_id": "mawps-108",
+        "question": "There are number0 scissors and number1 pencils in the drawer. Dan placed number2 scissors in the drawer. How many scissors are now there in total?",
+        "numbers": {
+            "number0": "39.0",
+            "number1": "22.0",
+            "number2": "13.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 52,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-109",
+        "question": "Sara goes fishing with Melanie. Sara catches number0 trout. Melanie catches number1 times as many trout as Sara. How many trout did Melanie catch?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 10.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-110",
+        "question": "Cade had number0 marbles. He gave number1 to Dylan. How many does he have left?",
+        "numbers": {
+            "number0": "87.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 79.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-111",
+        "question": "Karin 's science class weighed plastic rings for an experiment. They found that the orange ring weighed number0 ounce, the purple ring weighed number1 ounce, and the white ring weighed number2 ounce. What was the total weight of the plastic rings?",
+        "numbers": {
+            "number0": "0.08333333333333333",
+            "number1": "0.3333333333333333",
+            "number2": "0.4166666666666667"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 0.8333333333333334,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-112",
+        "question": "A group of number0 friends went into a restaurant. The chef already had number1 chicken wings cooked but cooked number2 more for the group. If they each got the same amount how many would each person get?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "8.0",
+            "number2": "10.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 6.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-113",
+        "question": "Lucy has number0 fish. How many more fish does she need to buy to have number1 fish?",
+        "numbers": {
+            "number0": "212.0",
+            "number1": "280.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 68.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-114",
+        "question": "There are number0 bananas in a pile on the desk. Each banana comes in a package of number1. number2 bananas are added to the pile. How many bananas are there in the pile?",
+        "numbers": {
+            "number0": "2.0",
+            "number1": "13.0",
+            "number2": "7.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-115",
+        "question": "Terrell hiked number0 miles on Saturday. Then, on Sunday, he hiked another number1 miles. How far did Terrell hike all together?",
+        "numbers": {
+            "number0": "8.2",
+            "number1": "1.6"
+        },
+        "equation": "number0 + number1",
+        "answer": 9.8,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-116",
+        "question": "Allyson plays for the cook county regional football league which has number0 teams. During a season, each team plays the other team number1 twice, once at home and one away. How many total games are played in one season?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "2.0"
+        },
+        "equation": "",
+        "answer": 90.0,
+        "steps": [
+            "number0 - 1.0"
+        ]
+    },
+    {
+        "task_id": "mawps-117",
+        "question": "Larry starts with number0 cards. number1 are eaten by a hippopotamus. How many cards does Larry end with?",
+        "numbers": {
+            "number0": "91.0",
+            "number1": "17.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 74.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-118",
+        "question": "Keith spent $ number0 on speakers, $ number1 on a CD player, and $ number2 on new tires. He wanted number3 CD 's for $ number4, but did n't buy them. In total, how much did he spend?",
+        "numbers": {
+            "number0": "136.01",
+            "number1": "139.38",
+            "number2": "112.46",
+            "number3": "3.0",
+            "number4": "6.16"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 387.85,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-119",
+        "question": "For Halloween Janet and her sister combined the candy they received. Janet had number0 pieces of candy while her sister had number1. If they ate number2 pieces the first night, how many pieces do they have left?",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "33.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 63.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-120",
+        "question": "Each ticket costs $ number0. How much do number1 tickets cost?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 36.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-121",
+        "question": "In one year, for the election for president there were number0 million voters, whereas in the next year there were number1 million voters. Find the percentage change in the number of voters?",
+        "numbers": {
+            "number0": "76.7",
+            "number1": "129.9"
+        },
+        "equation": "( number0 / ( number1 - number0 ) ) * 100.0",
+        "answer": 69.4,
+        "steps": [
+            "number1 - number0",
+            "number0 / ( number1 - number0 )",
+            "( number0 / ( number1 - number0 ) ) * 100.0"
+        ]
+    },
+    {
+        "task_id": "mawps-122",
+        "question": "Carla has some marbles. She bought number0 marbles. Now she has number1 marbles all together. How many did she start with?",
+        "numbers": {
+            "number0": "489.0",
+            "number1": "2778.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 2289.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-123",
+        "question": "Lana picked number0 tulips and number1 roses to make flower bouquets. If she only used number2 of the flowers though, how many extra flowers did Lana pick?",
+        "numbers": {
+            "number0": "36.0",
+            "number1": "37.0",
+            "number2": "70.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 3.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-124",
+        "question": "James rode number0 miles at number1 miles per hour. How long did James ride?",
+        "numbers": {
+            "number0": "80.0",
+            "number1": "16.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-125",
+        "question": "The tallest player on the basketball team is number0 inches tall. This is number1 inches taller than the shortest player. How tall is the shortest player, in inches?",
+        "numbers": {
+            "number0": "77.75",
+            "number1": "9.5"
+        },
+        "equation": "number0 - number1",
+        "answer": 68.25,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-126",
+        "question": "How much would number0 pieces of bubble gum cost if each piece costs number1 cents?",
+        "numbers": {
+            "number0": "136.0",
+            "number1": "18.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 2448.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-127",
+        "question": "Paul had number0 strawberries in his basket. He picked number1 more strawberries. How many strawberries did he have then?",
+        "numbers": {
+            "number0": "28.0",
+            "number1": "35.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 63.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-128",
+        "question": "Iesha has number0 books. number1 are about school and the rest are about sports. How many books about sports does Iesha have?",
+        "numbers": {
+            "number0": "344.0",
+            "number1": "136.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 208.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-129",
+        "question": "At a restaurant each adult meal costs $ number0 and kids eat free. If a group of number1 people came in and number2 were kids, how much would it cost for the group to eat?",
+        "numbers": {
+            "number0": "2.0",
+            "number1": "15.0",
+            "number2": "9.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 12.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-130",
+        "question": "Sam had number0 pennies and number1 nickels in his bank. His dad gave him number2 nickels and number3 quarters. How many nickels does he have now?",
+        "numbers": {
+            "number0": "49.0",
+            "number1": "24.0",
+            "number2": "39.0",
+            "number3": "31.0"
+        },
+        "equation": "number1 + number2",
+        "answer": 63,
+        "steps": [
+            "number1 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-131",
+        "question": "A painter needed to paint number0 rooms in a building. Each room takes number1 hours to paint. If he already painted number2 rooms, how much longer will he take to paint the rest?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "7.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 - number2 ) * number1",
+        "answer": 49.0,
+        "steps": [
+            "number0 - number2",
+            "( number0 - number2 ) * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-132",
+        "question": "Sally picked number0 lemons and Mary picked number1 lemons from the lemon tree. How many lemons were picked in total?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 16.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-133",
+        "question": "A waitress put leftover tarts into the fridge on Thursday night. She noticed that the restaurant had number0 tart filled with cherries, number1 tart filled with blueberries, and number2 tart filled with peaches. How many leftover tarts did the restaurant have in all?",
+        "numbers": {
+            "number0": "0.08333333333333333",
+            "number1": "0.75",
+            "number2": "0.08333333333333333"
+        },
+        "equation": "( number0 + number0 ) + number1",
+        "answer": 0.9166666666666666,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-134",
+        "question": "Mike made number0 dollars mowing lawns over the summer. If he spent number1 dollars buying new mower blades, how many number2 dollar games could he buy with the money he had left?",
+        "numbers": {
+            "number0": "101.0",
+            "number1": "47.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-135",
+        "question": "There are number0 calories in a candy bar. How many calories are there in number1 candy bars?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 24.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-136",
+        "question": "Gloria has number0 boxes of tickets. Each box holds number1 tickets and there are number2 boxes in a case. How many tickets does Gloria have?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "5.0",
+            "number2": "10.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 45.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-137",
+        "question": "Joan 's cat had number0 kittens. She gave number1 to her friends. How many kittens does she have now?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 6,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-138",
+        "question": "Maria had number0 bottles of water in her fridge. If she drank number1 of them and then bought number2 more, how many bottles would she have?",
+        "numbers": {
+            "number0": "14.0",
+            "number1": "8.0",
+            "number2": "45.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 51.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-139",
+        "question": "Each cup contains number0 ounces. How many ounces are in number1 cups?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "33.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 264.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-140",
+        "question": "For Halloween Katie and her sister combined the candy they received. Katie had number0 pieces of candy while her sister had number1. If they ate number2 pieces the first night, how many pieces do they have left?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "23.0",
+            "number2": "8.0"
+        },
+        "equation": "( number0 + number1 ) - number0",
+        "answer": 23.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-141",
+        "question": "A spaceship traveled number0 light - year from Earth to Planet X and number1 light - year from Planet X to Planet Y. Then it traveled number2 light - year from Planet Y back to Earth. How many light - years did the spaceship travel in all?",
+        "numbers": {
+            "number0": "0.5",
+            "number1": "0.1",
+            "number2": "0.1"
+        },
+        "equation": "( number0 + number1 ) + number1",
+        "answer": 0.7,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-142",
+        "question": "Martin has number0 boxes of crayons. Each box holds number1 crayons. How many crayons does Martin have?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 56.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-143",
+        "question": "If Anne wandered for number0 hours at number1 miles per hour. How far did Anne go?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 6.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-144",
+        "question": "The Richmond Tigers sold a total of number0 tickets last season. If they sold number1 tickets in the first half of the season, how many tickets did they sell in the second half?",
+        "numbers": {
+            "number0": "9570.0",
+            "number1": "3867.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 5703.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-145",
+        "question": "At the town carnival Billy rode the ferris wheel number0 times and the bumper cars number1 times. If each ride cost number2 tickets, how many tickets did he use?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "3.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 + number1 ) * number2",
+        "answer": 50.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-146",
+        "question": "Joan found number0 seashells on the beach, she gave Mike number1 of the seashells. How many seashells does she now have?",
+        "numbers": {
+            "number0": "79.0",
+            "number1": "63.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 16,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-147",
+        "question": "Kelly has number0 Nintendo games. How many does she need to give away so that she will have number1 games left?",
+        "numbers": {
+            "number0": "50.0",
+            "number1": "35.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 15.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-148",
+        "question": "Mike had number0 video games but number1 of them were n't working. If he wanted to sell the working games for $ number2 each, how much money could he earn?",
+        "numbers": {
+            "number0": "15.0",
+            "number1": "9.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 30.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-149",
+        "question": "Jesse has number0 bananas. If he shares them among number1 friends, how many bananas does each friend get?",
+        "numbers": {
+            "number0": "21.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 7.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-150",
+        "question": "Rachel bought number0 new chairs and number1 new tables for her house. If she spent number2 minutes on each piece furniture putting it together, how many minutes did it take her to finish?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "3.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 + number1 ) * number2",
+        "answer": 40.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-151",
+        "question": "Mike joined his school 's band. He bought a trumpet for $ number0, and a song book which was $ number1. How much did Mike spend at the music store?",
+        "numbers": {
+            "number0": "145.16",
+            "number1": "5.84"
+        },
+        "equation": "number0 + number1",
+        "answer": 151.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-152",
+        "question": "Lewis saved checking on the grapevines for his last stop. He was told by one of the pickers that they fill number0 drums of grapes per day. How many drums of grapes would be filled in number1 days?",
+        "numbers": {
+            "number0": "324.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 2916.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-153",
+        "question": "If Teresa jogged number0 kilometers at number1 kilometers per hour, how long was Teresa jogging?",
+        "numbers": {
+            "number0": "25.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-154",
+        "question": "Megan has number0 seashells. How many more seashells does she need to find to have number1 seashells in her collection?",
+        "numbers": {
+            "number0": "19.0",
+            "number1": "25.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 6.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-155",
+        "question": "Sue \u2019 s family went on vacation. Her mom drove the car at number0 mph. They camped at a campground after traveling for number1 hours. How far was the campground from their home?",
+        "numbers": {
+            "number0": "60.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 300.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-156",
+        "question": "Joan has number0 orange balloons but lost number1 of them. How many orange balloons does Joan have now?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 6.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-157",
+        "question": "Heather went to the county fair last weekend. When she got there, she had to walk number0 mile from the car to the entrance. Then she walked number1 mile to the carnival rides and number2 mile from the carnival rides back to the car. How many miles did Heather walk in all?",
+        "numbers": {
+            "number0": "0.3333333333333333",
+            "number1": "0.3333333333333333",
+            "number2": "0.08333333333333333"
+        },
+        "equation": "( number0 + number0 ) + number2",
+        "answer": 0.75,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-158",
+        "question": "Craig starts with number0 Skittles. number1 are eaten by a hippopotamus. How many Skittles does Craig end with?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 3.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-159",
+        "question": "The schools debate team had number0 boys and number1 girls on it. If they were split into groups of number2 how many groups could they make?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "40.0",
+            "number2": "9.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-160",
+        "question": "Isabel bought number0 pieces of paper. She used number1 pieces of the paper. How many pieces of paper does she have left?",
+        "numbers": {
+            "number0": "900.0",
+            "number1": "156.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 744.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-161",
+        "question": "A pet store had number0 siamese cats and number1 house cats. During a sale they sold number2 cats. How many cats do they have left?",
+        "numbers": {
+            "number0": "36.0",
+            "number1": "18.0",
+            "number2": "26.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 28.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-162",
+        "question": "Mary has number0 yellow marbles Joan has number1 yellow marbles. How many yellow marbles do they have in all?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 12.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-163",
+        "question": "A bee colony produced number0 pounds of honey, but bears ate number1 pounds of it. How much honey remains?",
+        "numbers": {
+            "number0": "0.36",
+            "number1": "0.05"
+        },
+        "equation": "number0 - number1",
+        "answer": 0.31,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-164",
+        "question": "Aaron starts with number0 erasers. He gives number1 to Doris. How many erasers does Aaron end with?",
+        "numbers": {
+            "number0": "81.0",
+            "number1": "34.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 47.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-165",
+        "question": "Sara picked number0 pears and Sally picked number1 pears from the pear tree. How many pears were picked in total?",
+        "numbers": {
+            "number0": "45.0",
+            "number1": "11.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 56,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-166",
+        "question": "There are number0 pencils and number1 rulers in the drawer. Sally took number2 pencils out of the drawer. How many pencils are there now?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "4.0",
+            "number2": "4.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 5,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-167",
+        "question": "Benny received number0 dollars and number1 movie tickets for his birthday. He went to a sporting goods store and bought a baseball glove, baseball, and bat. He had number2 dollars over, how much did he spent on the baseball gear?",
+        "numbers": {
+            "number0": "79.0",
+            "number1": "9.0",
+            "number2": "32.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 47,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-168",
+        "question": "Fred has number0 baseball cards. Melanie bought number1 of Fred 's baseball cards. How many baseball cards does Fred have now?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-169",
+        "question": "Before December, customers buy number0 ear muffs from the mall. During December, they buy number1 more, and there are none left. In all, how many ear muffs do the customers buy?",
+        "numbers": {
+            "number0": "1346.0",
+            "number1": "6444.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 7790.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-170",
+        "question": "On Friday, number0 people visited the zoo. number1 times as many people visited on Saturday than on Friday. How many people visited the zoo on Saturday?",
+        "numbers": {
+            "number0": "1250.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 3750.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-171",
+        "question": "There are number0 pencils in the drawer. Mike placed number1 more pencils in the drawer. How many pencils are now there in total?",
+        "numbers": {
+            "number0": "41.0",
+            "number1": "30.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 71.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-172",
+        "question": "Andrew starts with number0 eggs. He buys number1 more. How many eggs does Andrew end with?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "62.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 70.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-173",
+        "question": "Billy was organizing his baseball cards in a binder with number0 on each page. If he had number1 new cards and number2 old cards to put in the binder, how many pages would he use?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "3.0",
+            "number2": "42.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 9.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-174",
+        "question": "My car gets number0 miles per gallon of gas. If Grandma \u2019 s house is number1 miles away, how many gallons of gas would it take to get to her house?",
+        "numbers": {
+            "number0": "20.0",
+            "number1": "100.0"
+        },
+        "equation": "number1 / number0",
+        "answer": 5.0,
+        "steps": [
+            "number1 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-175",
+        "question": "Your class is having a pizza party. You buy number0 pizzas. Each pizza has number1 slices. How many slices is that altogether?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 20.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-176",
+        "question": "A waiter at ' The Greasy Spoon ' restaurant had number0 customers to wait on. During the lunch rush he added another number1 customers. If number2 of the customers did n't leave him a tip, how many customers did leave a tip?",
+        "numbers": {
+            "number0": "29.0",
+            "number1": "20.0",
+            "number2": "34.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 15.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-177",
+        "question": "Lillian collects number0 candies. Lillian 's father gives Lillian number1 more. How many candies does Lillian have?",
+        "numbers": {
+            "number0": "88.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 93.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-178",
+        "question": "Ashley sold number0 boxes of Samoas. How many cases of number1 boxes, plus extra boxes does Ashley need?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "12.0"
+        },
+        "equation": "number0 / number0",
+        "answer": 1.0,
+        "steps": [
+            "number0 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-179",
+        "question": "It rained number0 inches on Saturday and number1 inches on Sunday. How much did it rain on Saturday and Sunday combined?",
+        "numbers": {
+            "number0": "0.2",
+            "number1": "0.4"
+        },
+        "equation": "number0 + number1",
+        "answer": 0.6,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-180",
+        "question": "Mike joined his school 's band. He bought a trumpet for $ number0, and a song book which was $ number1. How much did Mike spend at the music store?",
+        "numbers": {
+            "number0": "145.16",
+            "number1": "5.84"
+        },
+        "equation": "number0 + number1",
+        "answer": 151,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-181",
+        "question": "Anthony has number0 pencils. Kathryn gives Anthony number1 more. How many pencils does Anthony have in all?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "56.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 65.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-182",
+        "question": "A florist had number0 roses. If she sold number1 of them and then later picked number2 more, how many roses would she have?",
+        "numbers": {
+            "number0": "37.0",
+            "number1": "16.0",
+            "number2": "19.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 40.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-183",
+        "question": "There are number0 short bushes and number1 tall trees currently in the park. Park workers will plant number2 short bushes today. How many short bushes will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "37.0",
+            "number1": "30.0",
+            "number2": "20.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 57,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-184",
+        "question": "The Sumata family took a number0 day vacation by car. Each day they drove number1 miles. How many total miles did they drive?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "250.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 1250.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-185",
+        "question": "Emily was playing a trivia game. In the first round she scored number0 points and in the second round she scored number1 points. In the last round she lost number2 points. How many points did she have at the end of the game?",
+        "numbers": {
+            "number0": "16.0",
+            "number1": "33.0",
+            "number2": "48.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 1.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-186",
+        "question": "Joshua has number0 Skittles and number1 eggs. If he shares the Skittles among number2 friends, how many Skittles does each friend get?",
+        "numbers": {
+            "number0": "40.0",
+            "number1": "6.0",
+            "number2": "5.0"
+        },
+        "equation": "number0 / number2",
+        "answer": 8.0,
+        "steps": [
+            "number0 / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-187",
+        "question": "Sandy went to the mall to buy clothes. She spent $ number0 on shorts, $ number1 on a shirt, and $ number2 on a jacket. How much money did Sandy spend on clothes?",
+        "numbers": {
+            "number0": "13.99",
+            "number1": "12.14",
+            "number2": "7.43"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 33.56,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-188",
+        "question": "Katie had number0 songs on her mp3 player. If she deleted number1 old songs from it and then added number2 new songs, how many songs does she have on her mp3 player?",
+        "numbers": {
+            "number0": "11.0",
+            "number1": "7.0",
+            "number2": "24.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 28.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-189",
+        "question": "Maria needs number0 cartons of berries to make a berry cobbler. She already has number1 cartons of strawberries and number2 cartons of blueberries. How many more cartons of berries should Maria buy?",
+        "numbers": {
+            "number0": "21.0",
+            "number1": "4.0",
+            "number2": "8.0"
+        },
+        "equation": "number0 - ( number1 + number2 )",
+        "answer": 9.0,
+        "steps": [
+            "number1 + number2",
+            "number0 - ( number1 + number2 )"
+        ]
+    },
+    {
+        "task_id": "mawps-190",
+        "question": "Betty bought number0 pink flower stones and wanted to make number1 bracelets out of these stones. How many pink flower stones will each bracelet have if she used the same number of stones in each bracelet?",
+        "numbers": {
+            "number0": "88.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 11.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-191",
+        "question": "The value of a sport utility vehicle this year is number0 dollars, which is number1 of what its value was last year. Find the value of the vehicle last year.",
+        "numbers": {
+            "number0": "16000.0",
+            "number1": "0.8"
+        },
+        "equation": "number0 / number1",
+        "answer": 20000.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-192",
+        "question": "Sandy has number0 dozen books. Fred has number1 times more books than Sandy. How many books does Fred have?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "5.0"
+        },
+        "equation": "( 12.0 * number0 ) * number1",
+        "answer": 480.0,
+        "steps": [
+            "12.0 * number0",
+            "( 12.0 * number0 ) * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-193",
+        "question": "There are number0 oak trees currently in the park. Park workers had to cut down number1 oak trees that were damaged. How many oak trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 7.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-194",
+        "question": "Megan had number0 markers. Robert gave her number1 more markers. How many markers does Megan have altogether?",
+        "numbers": {
+            "number0": "217.0",
+            "number1": "109.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 326.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-195",
+        "question": "Mary had number0 nickels in her bank. Her dad gave her number1 nickels. How many nickels does Mary have now?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 12,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-196",
+        "question": "If Madison sold number0 boxes of Tagalongs, how many cases of number1 boxes does Madison pickup from the cookie mom?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "12.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-197",
+        "question": "Alec and his roommates ate number0 pints of ice cream on Friday night and number1 pint of ice cream on Saturday night. How many pints did they eat in all?",
+        "numbers": {
+            "number0": "3.25",
+            "number1": "0.25"
+        },
+        "equation": "number0 + number1",
+        "answer": 3.5,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-198",
+        "question": "The cafeteria had number0 apples. For lunch they handed out number1 to students and decided to use the rest to make pies. If each pie takes number2 apples, how many pies could they make?",
+        "numbers": {
+            "number0": "96.0",
+            "number1": "42.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-199",
+        "question": "Some insects called aphids attack a large farm. In response, the farmer releases ladybugs onto the fields. There are number0 ladybugs with spots and number1 ladybugs without spots. How many ladybugs are there in all?",
+        "numbers": {
+            "number0": "12170.0",
+            "number1": "54912.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 67082.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-200",
+        "question": "Nancy found number0 seashells and number1 starfish on the beach. She gave number2 of the seashells to Jason. How many seashells does Nancy now have?",
+        "numbers": {
+            "number0": "35.0",
+            "number1": "25.0",
+            "number2": "17.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 18,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-201",
+        "question": "number0 the students in the band are in the trumpet section. number1 the students in the band are in the trombone section. What fraction of the students in the band are in either the trumpet section or the trombone section?",
+        "numbers": {
+            "number0": "0.5",
+            "number1": "0.125"
+        },
+        "equation": "number0 + number1",
+        "answer": 0.625,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-202",
+        "question": "A magician was selling magic card decks for number0 dollars each. If he started with number1 decks and by the end of the day he had number2 left, how much money did he earn?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "16.0",
+            "number2": "8.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 56.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-203",
+        "question": "Lori has number0 marbles. If she shares them among number1 friends, how many marbles does each friend get?",
+        "numbers": {
+            "number0": "30.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 6.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-204",
+        "question": "There are number0 pencils in a box. Eric takes number1 pencils. How many are left?",
+        "numbers": {
+            "number0": "79.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 75.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-205",
+        "question": "If Anne wandered for number0 hours at number1 miles per hour. How far did Anne go?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 6.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-206",
+        "question": "A renovation project required number0 truck - load of sand, number1 truck - load of dirt, and number2 truck - load of cement. How many truck - loads of material were needed in all?",
+        "numbers": {
+            "number0": "0.16666666666666666",
+            "number1": "0.3333333333333333",
+            "number2": "0.16666666666666666"
+        },
+        "equation": "( number0 + number0 ) + number1",
+        "answer": 0.6666666666666666,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-207",
+        "question": "Keith spent $ number0 on a rabbit toy, $ number1 on pet food, and a cage cost him $ number2. He found a dollar bill on the ground. What was the total cost of Keith 's purchases?",
+        "numbers": {
+            "number0": "6.51",
+            "number1": "5.79",
+            "number2": "12.51"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 24.81,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-208",
+        "question": "Lemon heads come in packages of number0. Louis ate number1 Lemon Heads. How many whole boxes did he eat and how many Lemon Heads does he have left?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "54.0"
+        },
+        "equation": "number1 / number0",
+        "answer": 9.0,
+        "steps": [
+            "number1 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-209",
+        "question": "A pet store has number0 bird cages. If each cage has number1 parrots and number2 parakeets in it, how many birds does the pet store have total?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "2.0",
+            "number2": "7.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 54.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-210",
+        "question": "If Benjamin strolled number0 miles at number1 miles per hour, how long was Benjamin travelling?",
+        "numbers": {
+            "number0": "14.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 7.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-211",
+        "question": "Jason grew number0 watermelons and number1 pumpkins. Sandy grew number2 watermelons. How many watermelons did they grow in total?",
+        "numbers": {
+            "number0": "37.0",
+            "number1": "30.0",
+            "number2": "11.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 48,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-212",
+        "question": "Each chocolate bar in a box cost $ number0. If a box had number1 bars total and Vanessa sold all but number2 bars, how much money would she have made?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "11.0",
+            "number2": "7.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 16.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-213",
+        "question": "There are number0 bottle caps in a box. Marvin takes number1 bottle caps. How many are left?",
+        "numbers": {
+            "number0": "16.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 10.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-214",
+        "question": "Mary had number0 potatoes in the garden. The rabbits ate number1 of the potatoes. How many potatoes does Mary now have?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 5,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-215",
+        "question": "A ship is filled with number0 tons of cargo. It stops in the Bahamas, where sailors load number1 more tons of cargo onboard. How many tons of cargo does the ship hold now?",
+        "numbers": {
+            "number0": "5973.0",
+            "number1": "8723.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 14696.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-216",
+        "question": "George has number0 boxes of eggs. Each box holds number1 eggs and there are number2 boxes in a case. How many eggs does George have?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "3.0",
+            "number2": "9.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 15.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-217",
+        "question": "The school cafeteria ordered number0 red apples and number1 green apples for students lunches. But, if only number2 students wanted fruit, how many extra did the cafeteria end up with?",
+        "numbers": {
+            "number0": "33.0",
+            "number1": "23.0",
+            "number2": "21.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 35.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-218",
+        "question": "Tim had number0 cents. He paid number1 cents for a candy bar. How much change will he get?",
+        "numbers": {
+            "number0": "50.0",
+            "number1": "45.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-219",
+        "question": "Annie starts with number0 crayons. Matthew gives Annie number1 more. How many crayons does Annie end with?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "36.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 40.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-220",
+        "question": "James rode number0 miles at number1 miles per hour. How long did James ride?",
+        "numbers": {
+            "number0": "80.0",
+            "number1": "16.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-221",
+        "question": "There are number0 crayons in each box. How many crayons are in number1 boxes?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 12.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-222",
+        "question": "Peter has number0 candies stored in boxes. If there are number1 boxes, how many candies must go in each box?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 / number0",
+        "answer": 1.0,
+        "steps": [
+            "number0 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-223",
+        "question": "Robin has number0 packages of gum. There are number1 pieces in each package. How many pieces of gum does Robin have?",
+        "numbers": {
+            "number0": "27.0",
+            "number1": "18.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 486.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-224",
+        "question": "For Halloween Megan received number0 pieces of candy from neighbors and number1 pieces from her older sister. If she only ate number2 pieces a day, how long would the candy last her?",
+        "numbers": {
+            "number0": "11.0",
+            "number1": "5.0",
+            "number2": "8.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 2.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-225",
+        "question": "Joyce starts with number0 apples. She gives number1 to Larry. How many apples does Joyce end with?",
+        "numbers": {
+            "number0": "75.0",
+            "number1": "52.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 23.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-226",
+        "question": "Mike made number0 dollars mowing lawns and number1 dollars weed eating. If he only spent number2 dollar a week, how long would the money last him?",
+        "numbers": {
+            "number0": "14.0",
+            "number1": "26.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 8.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-227",
+        "question": "Mrs. Hilt reads number0 books a day. How many books does she read in number1 days?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 15.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-228",
+        "question": "James ate number0 carrot sticks before dinner and number1 more after dinner. How many carrot sticks did he eat?",
+        "numbers": {
+            "number0": "22.0",
+            "number1": "15.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 37.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-229",
+        "question": "Vincent bought number0 books about animals, number1 book about outer space, and number2 books about trains. Each book cost $ number3. How much did Vincent spend on the books?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "1.0",
+            "number2": "3.0",
+            "number3": "16.0"
+        },
+        "equation": "( ( number0 + number1 ) + number2 ) * number3",
+        "answer": 224.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2",
+            "( ( number0 + number1 ) + number2 ) * number3"
+        ]
+    },
+    {
+        "task_id": "mawps-230",
+        "question": "Alyssa went to number0 soccer games this year, but missed number1. She went to number2 games last year and plans to go to number3 games next year. How many soccer games will Alyssa go to in all?",
+        "numbers": {
+            "number0": "11.0",
+            "number1": "12.0",
+            "number2": "13.0",
+            "number3": "15.0"
+        },
+        "equation": "( number0 + number2 ) + number3",
+        "answer": 39,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) + number3"
+        ]
+    },
+    {
+        "task_id": "mawps-231",
+        "question": "For a birthday party Cody bought number0 regular sodas and number1 diet sodas. If his fridge would only hold number2 on each shelf, how many shelves would he fill up?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "44.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 8.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-232",
+        "question": "William has number0 marbles. He shares number1 with Theresa. How many marbles will William have?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 7.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-233",
+        "question": "Misha has number0 dollars. How many dollars does she have to earn to have number1 dollars to buy a dog?",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "47.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 13.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-234",
+        "question": "Haley was playing a video game and had number0 lives. In a hard part of the game she lost number1 lives. If she got number2 more lives in the next level, how many lives would she have?",
+        "numbers": {
+            "number0": "14.0",
+            "number1": "4.0",
+            "number2": "36.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 46.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-235",
+        "question": "Before December, customers buy number0 ear muffs from the mall. During December, they buy number1, and there are none. In all, how many ear muffs do the customers buy?",
+        "numbers": {
+            "number0": "1346.0",
+            "number1": "6444.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 7790.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-236",
+        "question": "John was organizing his baseball cards in a binder with number0 on each page. If he had number1 new cards and number2 old cards to put in the binder, how many pages would he use?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "8.0",
+            "number2": "16.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 8.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-237",
+        "question": "A lawyer bills her clients number0 dollars per hour of service. If a client 's case requires number1 hours to complete, use proportion to calculate how much the client will owe the lawyer in dollars.",
+        "numbers": {
+            "number0": "200.0",
+            "number1": "39.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 7800.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-238",
+        "question": "Joseph has number0 candies. Kathy gives Joseph number1 more. How many candies does Joseph have in all?",
+        "numbers": {
+            "number0": "67.0",
+            "number1": "38.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 105.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-239",
+        "question": "Brian \u2019 s car gets number0 miles per gallon. On his last trip, he used number1 gallons of gas. How many miles did he travel on his last trip?",
+        "numbers": {
+            "number0": "20.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 60.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-240",
+        "question": "Mark 's father gave him $ number0. Mark bought number1 books, each of which cost $ number2. How much money does Mark have left?",
+        "numbers": {
+            "number0": "85.0",
+            "number1": "10.0",
+            "number2": "5.0"
+        },
+        "equation": "number0 - ( number1 * number2 )",
+        "answer": 35.0,
+        "steps": [
+            "number1 * number2",
+            "number0 - ( number1 * number2 )"
+        ]
+    },
+    {
+        "task_id": "mawps-241",
+        "question": "To fill an order, the factory dyed number0 yards of silk green and number1 yards pink. How many yards of silk did it dye for that order?",
+        "numbers": {
+            "number0": "61921.0",
+            "number1": "49500.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 111421.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-242",
+        "question": "Edward was trying to expand his game collection. He bought number0 games from a friend and bought number1 more at a garage sale. If number2 of the games did n't work, how many good games did he end up with?",
+        "numbers": {
+            "number0": "41.0",
+            "number1": "14.0",
+            "number2": "31.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 24.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-243",
+        "question": "There are number0 stickers on a page. If you have number1 pages of stickers, how many stickers do you have?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "22.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 220.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-244",
+        "question": "Shirley starts with number0 eggs. She buys number1 more. How many eggs does Shirley end with?",
+        "numbers": {
+            "number0": "98.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 106.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-245",
+        "question": "Each year, salmon travel upstream, going from the ocean to the rivers where they were born. This year, number0 male and number1 female salmon returned to their rivers. How many salmon made the trip?",
+        "numbers": {
+            "number0": "712261.0",
+            "number1": "259378.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 971639.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-246",
+        "question": "We ordered number0 pizzas. Each pizza has number1 slices. How many slices of pizza are there altogether?",
+        "numbers": {
+            "number0": "21.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 168.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-247",
+        "question": "Mike picked number0 oranges and Melanie picked number1 oranges. Fred picked number2 apples. How many oranges were picked in total?",
+        "numbers": {
+            "number0": "123.0",
+            "number1": "104.0",
+            "number2": "130.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 227,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-248",
+        "question": "Joan had number0 dimes in her bank. She spent number1 of her dimes. How many dimes does she have now?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 3,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-249",
+        "question": "Victor and his friend were buying trick decks from the magic shop for number0 dollars each. How much did they spend if Victor bought number1 decks and his friend bought number2 decks?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "6.0",
+            "number2": "2.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 64.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-250",
+        "question": "Scott has number0 oranges that must be put away in boxes. Terry comes to help and brings number1 cookies to share with Scott. If there are number2 boxes, how many oranges must go in each box?",
+        "numbers": {
+            "number0": "56.0",
+            "number1": "11.0",
+            "number2": "8.0"
+        },
+        "equation": "number0 / number2",
+        "answer": 7.0,
+        "steps": [
+            "number0 / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-251",
+        "question": "If there are number0 crayons in a box and Gerald puts number1 more crayons inside, how many crayons are in the box?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 13.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-252",
+        "question": "Mikey had number0 leaves. Some of her leaves blew away. Now she has number1 leaves left. How many of her leaves blew away?",
+        "numbers": {
+            "number0": "356.0",
+            "number1": "112.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 244.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-253",
+        "question": "In number0 week, Mitch 's family drank number1 carton of regular milk and number2 carton of soy milk. How much milk did they drink in all?",
+        "numbers": {
+            "number0": "1.0",
+            "number1": "0.5",
+            "number2": "0.1"
+        },
+        "equation": "number1 + number2",
+        "answer": 0.6,
+        "steps": [
+            "number1 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-254",
+        "question": "Rachel strolled to Nicholas 's house. It is number0 miles from Rachel 's house to Nicholas 's house. It took Rachel number1 hours to get there. How fast did Rachel go?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-255",
+        "question": "The school cafeteria had number0 apples. If they used number1 to make lunch for the students and then bought number2 more, how many apples would they have?",
+        "numbers": {
+            "number0": "38.0",
+            "number1": "20.0",
+            "number2": "28.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 46.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-256",
+        "question": "Kimberly went to the store number0 times last month. She buys number1 peanuts each time she goes to the store. How many peanuts did Kimberly buy last month?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 21.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-257",
+        "question": "Keith found number0 seashells, Jessica found number1 seashells, and Tim found number2 seashells on the beach. When they cleaned them, they discovered that number3 were cracked. How many seashells did they find together?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "8.0",
+            "number2": "7.0",
+            "number3": "3.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 21,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-258",
+        "question": "Dave had to wash number0 short sleeve shirts and number1 long sleeve shirts before school. If he had only washed number2 of them by the time school started, how many did he not wash?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "27.0",
+            "number2": "20.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 16.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-259",
+        "question": "Mrs. Hilt bought a yoyo for number0 cents and a whistle for number1 cents. How much did she spend in all for the two toys?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "14.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 38.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-260",
+        "question": "I have number0 cents to buy candy. If each gumdrop costs number1 cents, how many gumdrops can I buy?",
+        "numbers": {
+            "number0": "80.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 20.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-261",
+        "question": "Darnel sprinted number0 lap and then took a break by jogging number1 lap. How much farther did Darnel sprint than jog?",
+        "numbers": {
+            "number0": "0.875",
+            "number1": "0.75"
+        },
+        "equation": "number0 - number1",
+        "answer": 0.125,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-262",
+        "question": "Fred has number0 yellow balloons, Sam has number1 yellow balloons, and Mary has number2 yellow balloons. The balloons cost number3 dollars. How many yellow balloons do they have in total?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "6.0",
+            "number2": "7.0",
+            "number3": "5.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 18,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-263",
+        "question": "There are number0 walnut trees and number1 orange trees currently in the park. Park workers had to cut down number2 walnut trees that were damaged. How many walnut trees will be in the park when the workers are finished?",
+        "numbers": {
+            "number0": "42.0",
+            "number1": "12.0",
+            "number2": "13.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 29,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-264",
+        "question": "Tom has number0 yellow balloons. Sara has number1 yellow balloons. How many yellow balloons do they have in total?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 17.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-265",
+        "question": "A fruit farm packs oranges in boxes that hold number0 each. One day it packs number1 oranges. How many boxes did they use?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "2650.0"
+        },
+        "equation": "number1 / number0",
+        "answer": 265.0,
+        "steps": [
+            "number1 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-266",
+        "question": "Karen has number0 crayons. Cindy has number1 crayons. How many more crayons does Karen have than Cindy?",
+        "numbers": {
+            "number0": "639.0",
+            "number1": "504.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 135.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-267",
+        "question": "Luke had number0 stickers. He bought number1 stickers from a store in the mall and got number2 stickers for his birthday. Then Luke gave number3 of the stickers to his sister and used number4 to decorate a greeting card. How many stickers does Luke have left?",
+        "numbers": {
+            "number0": "20.0",
+            "number1": "12.0",
+            "number2": "20.0",
+            "number3": "5.0",
+            "number4": "8.0"
+        },
+        "equation": "( ( ( number0 + number1 ) + number0 ) - number3 ) - number4",
+        "answer": 39.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number0",
+            "( ( number0 + number1 ) + number0 ) - number3",
+            "( ( ( number0 + number1 ) + number0 ) - number3 ) - number4"
+        ]
+    },
+    {
+        "task_id": "mawps-268",
+        "question": "There were number0 roses in the vase. Mary cut some roses from her flower garden. There are now number1 roses in the vase. How many roses did she cut?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "16.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 10,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-269",
+        "question": "For the school bake sale Wendy made pastries. She baked number0 cupcakes and number1 cookies. After the sale she had number2 to take back home. How many pastries did she sell?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "29.0",
+            "number2": "24.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-270",
+        "question": "Paul got a box of number0 crayons for his birthday. At the end of the school year, he only had number1 left. How many crayons had been lost or given away?",
+        "numbers": {
+            "number0": "479.0",
+            "number1": "134.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 345.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-271",
+        "question": "Kelly 's chemistry textbook weighs number0 pounds and her geometry textbook weighs number1 pound. How much more does the chemistry textbook weigh than the geometry textbook?",
+        "numbers": {
+            "number0": "7.125",
+            "number1": "0.625"
+        },
+        "equation": "number0 - number1",
+        "answer": 6.5,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-272",
+        "question": "At the beach, Janet and her sister both built sandcastles and then measured their heights. Janet 's sandcastle was number0 feet tall and her sister 's was number1 feet tall. How much taller was Janet 's sandcastle than her sister 's?",
+        "numbers": {
+            "number0": "3.6666666666666665",
+            "number1": "2.3333333333333335"
+        },
+        "equation": "number0 - number1",
+        "answer": 1.3333333333333333,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-273",
+        "question": "Carefully following a recipe, Kenny used exactly number0 cup of oil and number1 cups of water. How many cups of liquid did Kenny use in all?",
+        "numbers": {
+            "number0": "0.16666666666666666",
+            "number1": "1.1666666666666667"
+        },
+        "equation": "number0 + number1",
+        "answer": 1.3333333333333333,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-274",
+        "question": "A worksheet had number0 problems on it. If a teacher had number1 worksheets to grade and had already graded number2 of them, how many more problems does she have to grade?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "17.0",
+            "number2": "8.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 63.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-275",
+        "question": "A pet shelter had number0 puppies when another number1 were brought in. If number2 puppies a day are adopted, how long would it take for all of them to be adopted?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "35.0",
+            "number2": "8.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-276",
+        "question": "Fred had number0 dimes in his bank. His sister borrowed number1 of his dimes. How many dimes does Fred have now?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 4.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-277",
+        "question": "Sally had number0 quarters in her bank. She spent number1 of her quarters. How many quarters does she have now?",
+        "numbers": {
+            "number0": "760.0",
+            "number1": "418.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 342.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-278",
+        "question": "Lisa rented number0 DVDs for $ number1. How much did each DVD cost to rent?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "4.8"
+        },
+        "equation": "number1 / number0",
+        "answer": 1.2,
+        "steps": [
+            "number1 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-279",
+        "question": "While on vacation, Megan took number0 pictures at the zoo and number1 at the museum. If she later deleted number2 of the pictures, how many pictures from her vacation did she still have?",
+        "numbers": {
+            "number0": "15.0",
+            "number1": "18.0",
+            "number2": "31.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 2.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-280",
+        "question": "For Halloween Sarah received number0 pieces of candy from neighbors and number1 pieces from her older sister. If she only ate number2 pieces a day, how long would the candy last her?",
+        "numbers": {
+            "number0": "66.0",
+            "number1": "15.0",
+            "number2": "9.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-281",
+        "question": "A DVD book holds number0 DVDs. There are number1 DVDs already in the book. How many more DVDs can be put in the book?",
+        "numbers": {
+            "number0": "126.0",
+            "number1": "81.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 45.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-282",
+        "question": "If Benjamin skated number0 kilometers at number1 kilometers per hour, how long was Benjamin skating?",
+        "numbers": {
+            "number0": "80.0",
+            "number1": "10.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 8.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-283",
+        "question": "The selling price of a pair of pants is number0 dollars. If the store paid number1 dollars less for the pants, find the price that the store paid, in dollars.",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 26.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-284",
+        "question": "Fred went to number0 basketball games this year, but missed number1. He went to number2 games last year. How many basketball games did Fred go to in total?",
+        "numbers": {
+            "number0": "36.0",
+            "number1": "35.0",
+            "number2": "11.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 47,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-285",
+        "question": "A dealer pays number0 dollars for a car. The dealer wants to make a profit that is number1 % of the selling price. For how much should the dealer sell the car?",
+        "numbers": {
+            "number0": "6000.0",
+            "number1": "25.0"
+        },
+        "equation": "",
+        "answer": 7500.0,
+        "steps": [
+            "0.01 * number1",
+            "( 0.01 * number1 ) + 1.0"
+        ]
+    },
+    {
+        "task_id": "mawps-286",
+        "question": "Mrs. Hilt has number0 markers. They are divided equally into number1 packages. Mrs. Hilt wants to know how many markers are in each package?",
+        "numbers": {
+            "number0": "40.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 5.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-287",
+        "question": "Mrs. Hilt read number0 books. Each book had number1 chapters in it. How many chapters did Mrs. Hilt read?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "17.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 68.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-288",
+        "question": "Wendy uploaded number0 pictures to Facebook. She put number1 pics into one album and put the rest into number2 different albums. How many pictures were in each album?",
+        "numbers": {
+            "number0": "79.0",
+            "number1": "44.0",
+            "number2": "5.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 7.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-289",
+        "question": "You have number0 cookies and want to share them equally with number1 people. How many cookies would each person get?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 4.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-290",
+        "question": "A trivia team had number0 members total, but during a game number1 members did n't show up. If each member that did show up scored number2 points, how many points were scored total?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "3.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 12.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-291",
+        "question": "Jose has number0 peanuts. Kenya has number1 more than Jose. How many peanuts does Kenya have?",
+        "numbers": {
+            "number0": "85.0",
+            "number1": "48.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 133.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-292",
+        "question": "At a company picnic number0 managers and number1 employees decided to start a game of volleyball. If they split into number2 teams how many people would be on each team?",
+        "numbers": {
+            "number0": "23.0",
+            "number1": "7.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-293",
+        "question": "Will was organizing his baseball cards in a binder with number0 on each page. If he had number1 new cards and number2 old cards to put in the binder, how many pages would he use?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "8.0",
+            "number2": "10.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 6.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-294",
+        "question": "A trivia team had number0 members total, but during a game number1 members did n't show up. If each member that did show up scored number2 points, how many points were scored total?",
+        "numbers": {
+            "number0": "15.0",
+            "number1": "6.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 27.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-295",
+        "question": "How many yards of material from a number0 yard length of cloth remains after number1 pieces each number2 yards long and number3 pieces each number4 long are removed?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "3.0",
+            "number2": "3.5",
+            "number3": "5.0",
+            "number4": "2.25"
+        },
+        "equation": "",
+        "answer": 2.25,
+        "steps": [
+            "number1 * number2",
+            "number3 * number4"
+        ]
+    },
+    {
+        "task_id": "mawps-296",
+        "question": "Sarah has number0 boxes of apples. Each box holds number1 apples. How many apples does Sarah have?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 * number0",
+        "answer": 49.0,
+        "steps": [
+            "number0 * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-297",
+        "question": "Isabel was selling her necklaces at a garage sale. She sold number0 bead necklaces and number1 gem stone necklaces. If each necklace cost number2 dollars, how much money did she earn?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "3.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 + number0 ) * number2",
+        "answer": 36.0,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-298",
+        "question": "There are number0 calories in a candy bar. How many calories are there in number1 candy bars?",
+        "numbers": {
+            "number0": "31.0",
+            "number1": "11.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 341.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-299",
+        "question": "A florist had number0 roses. If she sold number1 of them and then later picked number2 more, how many roses would she have?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "5.0",
+            "number2": "12.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 13.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-300",
+        "question": "Tim got number0 nickels and number1 dimes for shining shoes, and in his tip jar found number2 dimes and number3 half - dollars. How much money did Tim get?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "13.0",
+            "number2": "7.0",
+            "number3": "9.0"
+        },
+        "equation": "",
+        "answer": 6.65,
+        "steps": [
+            "0.05 * number0",
+            "0.1 * number1",
+            "0.1 * number2",
+            "0.5 * number3"
+        ]
+    },
+    {
+        "task_id": "mawps-301",
+        "question": "Adam has $ number0 to buy an airplane that costs $ number1. How much change will Adam get?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "4.28"
+        },
+        "equation": "number0 - number1",
+        "answer": 0.72,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-302",
+        "question": "There are number0 students trying out for the school 's trivia teams. If number1 of them did n't get picked for the team and the rest were put into number2 groups, how many students would be in each group?",
+        "numbers": {
+            "number0": "36.0",
+            "number1": "9.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 9.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-303",
+        "question": "A waiter at ' The Greasy Spoon ' restaurant had number0 customers to wait on. During the lunch rush he added another number1 customers. If number2 of the customers did n't leave him a tip, how many customers did leave a tip?",
+        "numbers": {
+            "number0": "39.0",
+            "number1": "12.0",
+            "number2": "49.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 2.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-304",
+        "question": "Sam had number0 socks. If he threw away number1 old ones that did n't fit and bought number2 new ones, how many socks would he have?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "3.0",
+            "number2": "36.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 43.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-305",
+        "question": "Kelly has number0 Nintendo games. How many does Kelly need to give away so that Kelly will have number1 games left?",
+        "numbers": {
+            "number0": "121.0",
+            "number1": "22.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 99.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-306",
+        "question": "There are number0 eggs in a box. Harry takes number1 eggs. How many are left?",
+        "numbers": {
+            "number0": "47.0",
+            "number1": "5.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 42.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-307",
+        "question": "Fred found number0 seashells on the beach, he gave Jessica number1 of the seashells. How many seashells does he now have?",
+        "numbers": {
+            "number0": "47.0",
+            "number1": "25.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 22,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-308",
+        "question": "Jason has number0 Pokemon cards. Benny bought number1 of Jason 's Pokemon cards. How many Pokemon cards does Jason have now?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 1.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-309",
+        "question": "Jason has number0 Pokemon cards. Benny bought number1 of Jason 's Pokemon cards. How many Pokemon cards does Jason have now?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 1,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-310",
+        "question": "Martin strolled to Lawrence 's house. It is number0 miles from Martin 's house to Lawrence 's house. It took Martin number1 hours to get there. How fast did Martin go?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-311",
+        "question": "Alyssa loves eating fruits. Alyssa paid $ number0 for grapes, and $ number1 for cherries. In total, how much money did Alyssa spend?",
+        "numbers": {
+            "number0": "12.08",
+            "number1": "9.85"
+        },
+        "equation": "number0 + number1",
+        "answer": 21.93,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-312",
+        "question": "Luke was selling his old games. He started out with number0 but sold number1 of them. He packed the rest up putting number2 games into each box. How many boxes did he have to use?",
+        "numbers": {
+            "number0": "39.0",
+            "number1": "19.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-313",
+        "question": "Ashley sold number0 boxes of Samoas. How many cases of number1 boxes, plus extra boxes does Ashley need?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "12.0"
+        },
+        "equation": "number0 / number0",
+        "answer": 1.0,
+        "steps": [
+            "number0 / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-314",
+        "question": "A store had number0 oranges in a bin. If they threw away number1 of the old ones and put number2 new ones in the bin how many would be in the bin?",
+        "numbers": {
+            "number0": "50.0",
+            "number1": "40.0",
+            "number2": "24.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 34.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-315",
+        "question": "A new building needed number0 windows. The builder had already installed number1 of them. If it takes number2 hours to install each window, how long will it take him to install the rest?",
+        "numbers": {
+            "number0": "14.0",
+            "number1": "5.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 36.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-316",
+        "question": "A painter needed to paint number0 rooms in a building. Each room takes number1 hours to paint. If he already painted number2 rooms, how much longer will he take to paint the rest?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "3.0",
+            "number2": "4.0"
+        },
+        "equation": "( number0 - number2 ) * number1",
+        "answer": 24.0,
+        "steps": [
+            "number0 - number2",
+            "( number0 - number2 ) * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-317",
+        "question": "Debra removes number0 apples from a jar. There were originally number1 apples in the jar. How many apples are left in the jar?",
+        "numbers": {
+            "number0": "22.0",
+            "number1": "57.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 35.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-318",
+        "question": "A restaurant served number0 cakes during lunch and number1 during dinner today. How many cakes were served today?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 15.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-319",
+        "question": "Mrs. Hilt needs to share $ number0 equally among number1 total people. How much money will each person get?",
+        "numbers": {
+            "number0": "3.75",
+            "number1": "3.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 1.25,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-320",
+        "question": "Joan has number0 blue balloons but lost number1 of them. How many blue balloons does Joan have now?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "2.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 7,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-321",
+        "question": "Sean has number0 whistles. He has number1 more whistles that Charles. How many whistles does Charles have?",
+        "numbers": {
+            "number0": "45.0",
+            "number1": "32.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 13.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-322",
+        "question": "If there are number0 erasers in a box and Patrick puts number1 more erasers inside, how many erasers are in the box?",
+        "numbers": {
+            "number0": "76.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 85.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-323",
+        "question": "There are number0 flowers and number1 bees. How many fewer bees are there than flowers?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-324",
+        "question": "Dan has $ number0. He bought a candy bar for $ number1. How much money is left?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "1.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-325",
+        "question": "The mini library also has a section for the classics. If Jack has a collection of number0 classic authors, with each author having number1 books, how many books does he have in the classics section?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "33.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 198.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-326",
+        "question": "Amy had number0 music files and number1 video files on her flash drive. If she deleted number2 of the files, how many files were still on her flash drive?",
+        "numbers": {
+            "number0": "26.0",
+            "number1": "36.0",
+            "number2": "48.0"
+        },
+        "equation": "( number0 + number1 ) - number2",
+        "answer": 14.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-327",
+        "question": "Ernest starts with number0 crayons. Jennifer takes number1 away. How many crayons does Ernest end with?",
+        "numbers": {
+            "number0": "17.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 11.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-328",
+        "question": "Jenny sold number0 boxes of Trefoils. How many cases of number1 boxes, plus extra boxes does Jenny need to deliver?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 / number1",
+        "answer": 3.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-329",
+        "question": "Carson \u2019 s teacher gives out gold stars for great math work. Yesterday, Carson earned number0 gold stars. Today, he earned number1 more. How many gold stars did Carson earn in all?",
+        "numbers": {
+            "number0": "6.0",
+            "number1": "9.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 15.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-330",
+        "question": "Joan 's high school played number0 baseball games this year, number1 of the games were played at night. She attended number2 games. How many baseball games did Joan miss?",
+        "numbers": {
+            "number0": "864.0",
+            "number1": "128.0",
+            "number2": "395.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 469,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-331",
+        "question": "A group of number0 friends went into a restaurant. The chef already had number1 chicken wings cooked but cooked number2 more for the group. If they each got the same amount how many would each person get?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "6.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 + number1 ) / number0",
+        "answer": 3.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-332",
+        "question": "A company invited number0 people to a luncheon, but number1 of them did n't show up. If the tables they had held number2 people each, how many tables do they need?",
+        "numbers": {
+            "number0": "24.0",
+            "number1": "10.0",
+            "number2": "7.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-333",
+        "question": "Last Saturday, Marie sold number0 magazines and number1 newspapers. What is the total number of reading materials she sold?",
+        "numbers": {
+            "number0": "425.0",
+            "number1": "275.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 700.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-334",
+        "question": "Joshua has number0 bottle caps. He buys number1 more. How many bottle caps does Joshua have in all?",
+        "numbers": {
+            "number0": "40.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 47.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-335",
+        "question": "Nancy uploaded number0 pictures to Facebook. She put number1 pics into one album and put the rest into number2 different albums. How many pictures were in each album?",
+        "numbers": {
+            "number0": "41.0",
+            "number1": "37.0",
+            "number2": "2.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 2.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-336",
+        "question": "Melanie picked number0 plums and number1 oranges from the orchard. She gave number2 plums to Sam. How many plums does she have now?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "4.0",
+            "number2": "3.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 4,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-337",
+        "question": "A restaurant served number0 pizzas during lunch and number1 during dinner today. How many pizzas were served today?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 15.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-338",
+        "question": "Mariela was in the hospital and she got number0 get well cards from around the country. When she got home she got number1 more cards from friends and family. How many get well cards did Mariela get?",
+        "numbers": {
+            "number0": "403.0",
+            "number1": "287.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 690.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-339",
+        "question": "There are number0 short trees and number1 tall trees currently in the park. Park workers will plant number2 short trees today. How many short trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "112.0",
+            "number1": "119.0",
+            "number2": "105.0"
+        },
+        "equation": "number0 + number2",
+        "answer": 217,
+        "steps": [
+            "number0 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-340",
+        "question": "Last year, number0 people were born in a country, and number1 people immigrated to it. How many new people began living in the country last year?",
+        "numbers": {
+            "number0": "90171.0",
+            "number1": "16320.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 106491.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-341",
+        "question": "At the town carnival Oliver rode the ferris wheel number0 times and the bumper cars number1 times. If each ride cost number2 tickets, how many tickets did he use?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "4.0",
+            "number2": "7.0"
+        },
+        "equation": "( number0 + number1 ) * number2",
+        "answer": 63.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-342",
+        "question": "For the school bake sale Bianca made number0 cupcakes. If she sold number1 of them and then made number2 more, how many cupcakes would she have?",
+        "numbers": {
+            "number0": "14.0",
+            "number1": "6.0",
+            "number2": "17.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 25.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-343",
+        "question": "The value of a sport utility vehicle this year is number0 dollars, which is number1 of what its value was last year. How much is the value of the vehicle last year?",
+        "numbers": {
+            "number0": "16000.0",
+            "number1": "0.8"
+        },
+        "equation": "number0 / number1",
+        "answer": 20000.0,
+        "steps": [
+            "number0 / number1"
+        ]
+    },
+    {
+        "task_id": "mawps-344",
+        "question": "There were number0 girls and number1 boys on the playground at recess. How many children were there in all?",
+        "numbers": {
+            "number0": "28.0",
+            "number1": "35.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 63.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-345",
+        "question": "Find the product of number0, number1, number2 and number3.",
+        "numbers": {
+            "number0": "-2.0",
+            "number1": "-15.0",
+            "number2": "4.0",
+            "number3": "-1.0"
+        },
+        "equation": "( ( number0 * number1 ) * number2 ) * number3",
+        "answer": -120.0,
+        "steps": [
+            "number0 * number1",
+            "( number0 * number1 ) * number2",
+            "( ( number0 * number1 ) * number2 ) * number3"
+        ]
+    },
+    {
+        "task_id": "mawps-346",
+        "question": "Luke was organizing his baseball cards in a binder with number0 on each page. If he had number1 new cards and number2 old cards to put in the binder, how many pages would he use?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "3.0",
+            "number2": "9.0"
+        },
+        "equation": "( number0 + number2 ) / number0",
+        "answer": 4.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-347",
+        "question": "Carol starts with number0 blocks. She loses number1. How many blocks does Carol end with?",
+        "numbers": {
+            "number0": "42.0",
+            "number1": "25.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 17.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-348",
+        "question": "At a restaurant each adult meal costs $ number0 and kids eat free. If a group of number1 people came in and number2 were kids, how much would it cost for the group to eat?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "13.0",
+            "number2": "9.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 28.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-349",
+        "question": "Joan decided to sell all of her old books. She gathered up number0 books to sell. She sold number1 books in a yard sale. How many books does Joan now have?",
+        "numbers": {
+            "number0": "33.0",
+            "number1": "26.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 7,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-350",
+        "question": "John had number0 action figures, but needed number1 total for a complete collection. If each one costs $ number2, how much money would he need to finish his collection?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "7.0",
+            "number2": "5.0"
+        },
+        "equation": "( number1 - number0 ) * number0",
+        "answer": 10.0,
+        "steps": [
+            "number1 - number0",
+            "( number1 - number0 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-351",
+        "question": "The town of Milburg has number0 grown - ups and number1 children. How many people live in Milburg?",
+        "numbers": {
+            "number0": "5256.0",
+            "number1": "2987.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 8243.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-352",
+        "question": "A waiter had number0 tables he was waiting on, with number1 women and number2 men at each table. How many customers total did the waiter have?",
+        "numbers": {
+            "number0": "5.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 + number2 ) * number0",
+        "answer": 40.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-353",
+        "question": "Dave was helping the cafeteria workers pick up lunch trays, but he could only carry number0 trays at a time. If he had to pick up number1 trays from one table and number2 trays from another, how many trips will he make?",
+        "numbers": {
+            "number0": "9.0",
+            "number1": "17.0",
+            "number2": "55.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 8.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-354",
+        "question": "There are number0 butterflies. Each butterfly has number1 black dots and number2 yellow dots. How many black dots are there in all?",
+        "numbers": {
+            "number0": "397.0",
+            "number1": "12.0",
+            "number2": "17.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 4764.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-355",
+        "question": "Jesse starts with number0 pencils. He gives number1 to Joshua. How many pencils does Jesse end with?",
+        "numbers": {
+            "number0": "78.0",
+            "number1": "44.0"
+        },
+        "equation": "number0 - number1",
+        "answer": 34.0,
+        "steps": [
+            "number0 - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-356",
+        "question": "For Halloween Faye scored number0 pieces of candy. She ate number1 pieces the first night and then her sister gave her number2 more pieces. How many pieces of candy does Faye have now?",
+        "numbers": {
+            "number0": "47.0",
+            "number1": "25.0",
+            "number2": "40.0"
+        },
+        "equation": "( number0 + number2 ) - number1",
+        "answer": 62.0,
+        "steps": [
+            "number0 + number2",
+            "( number0 + number2 ) - number1"
+        ]
+    },
+    {
+        "task_id": "mawps-357",
+        "question": "Ella owns number0 dogs. Each day, number1 dog eats number2 scoop of dog food and the other dog eats number3 scoop. Together, how much dog food do the number4 dogs eat each day?",
+        "numbers": {
+            "number0": "2.0",
+            "number1": "1.0",
+            "number2": "0.125",
+            "number3": "0.125",
+            "number4": "2.0"
+        },
+        "equation": "number2 + number2",
+        "answer": 0.25,
+        "steps": [
+            "number2 + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-358",
+        "question": "Keith loves trading cards. She bought number0 packs of Digimon cards for $ number1 each, and a deck of baseball cards for $ number2. How much did Keith spend on cards?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "4.45",
+            "number2": "6.06"
+        },
+        "equation": "( number0 * number1 ) + number2",
+        "answer": 23.86,
+        "steps": [
+            "number0 * number1",
+            "( number0 * number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-359",
+        "question": "There are number0 orchid bushes currently in the park. Park workers will plant number1 orchid bushes today and number2 orchid bushes tomorrow. It took number3 workers to finish the work. How many orchid bushes will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "47.0",
+            "number1": "37.0",
+            "number2": "25.0",
+            "number3": "35.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 109,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-360",
+        "question": "It took Amanda number0 hours to stroll to Kimberly 's house at number1 miles per hour. How far is it between Amanda 's house and Kimberly 's house?",
+        "numbers": {
+            "number0": "2.0",
+            "number1": "4.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 8.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-361",
+        "question": "Will made number0 dollars mowing lawns over the summer. If he spent number1 dollars buying new mower blades, how many number2 dollar games could he buy with the money he had left?",
+        "numbers": {
+            "number0": "104.0",
+            "number1": "41.0",
+            "number2": "9.0"
+        },
+        "equation": "( number0 - number1 ) / number2",
+        "answer": 7.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-362",
+        "question": "At Billy 's Restaurant a group with number0 adults and number1 children came in to eat. If each meal cost number2 dollars, how much was the bill?",
+        "numbers": {
+            "number0": "2.0",
+            "number1": "5.0",
+            "number2": "3.0"
+        },
+        "equation": "( number0 + number1 ) * number2",
+        "answer": 21.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-363",
+        "question": "Oliver was organizing his baseball cards in a binder with number0 on each page. If he had number1 new cards and number2 old cards to put in the binder, how many pages would he use?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "2.0",
+            "number2": "10.0"
+        },
+        "equation": "( number1 + number2 ) / number0",
+        "answer": 4.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) / number0"
+        ]
+    },
+    {
+        "task_id": "mawps-364",
+        "question": "Peter starts with number0 erasers. Bridget gives Peter number1 more. How many erasers does Peter end with?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "3.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 11.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-365",
+        "question": "There are number0 walnut trees currently in the park. Park workers will plant number1 more walnut trees today. How many walnut trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "6.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 10.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-366",
+        "question": "Each chocolate bar in a box cost $ number0. If a box had number1 bars total and Emily sold all but number2 bars, how much money would she have made?",
+        "numbers": {
+            "number0": "4.0",
+            "number1": "8.0",
+            "number2": "3.0"
+        },
+        "equation": "( number1 - number2 ) * number0",
+        "answer": 20.0,
+        "steps": [
+            "number1 - number2",
+            "( number1 - number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-367",
+        "question": "Bruce has number0 eggs. Kimberly has number1 eggs. He loses number2. How many eggs will Bruce have?",
+        "numbers": {
+            "number0": "75.0",
+            "number1": "17.0",
+            "number2": "70.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-368",
+        "question": "Keith has number0 books. Jason has number1 books. How many books do they have together?",
+        "numbers": {
+            "number0": "20.0",
+            "number1": "21.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 41,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-369",
+        "question": "There school 's baseball team had number0 new players and number1 returning players. If the coach put them into groups with number2 players in each group, how many groups would there be?",
+        "numbers": {
+            "number0": "31.0",
+            "number1": "4.0",
+            "number2": "7.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 5.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-370",
+        "question": "Rachel was unboxing some of her old winter clothes. She found number0 boxes of clothing and inside each box there were number1 scarves and number2 mittens. How many pieces of winter clothing did Rachel have total?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "3.0",
+            "number2": "4.0"
+        },
+        "equation": "( number1 + number2 ) * number0",
+        "answer": 49.0,
+        "steps": [
+            "number1 + number2",
+            "( number1 + number2 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-371",
+        "question": "Joan has number0 books. Tom has number1 books. How many books do they have together?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "38.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 48,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-372",
+        "question": "A farmer estimates that he will harvest number0 bushels of wheat. The weather is perfect during the growing season, so he harvests number1 bushels of wheat than expected. How many bushels of wheat does the farmer harvest?",
+        "numbers": {
+            "number0": "48097.0",
+            "number1": "684.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 48781.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-373",
+        "question": "Kimberly went to the store number0 times last month. She buys number1 peanuts each time she goes to the store. How many peanuts did Kimberly buy last month?",
+        "numbers": {
+            "number0": "3.0",
+            "number1": "7.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 21.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-374",
+        "question": "Kaleb had number0 video games but number1 of them were n't working. If he wanted to sell the working games for $ number2 each, how much money could he earn?",
+        "numbers": {
+            "number0": "10.0",
+            "number1": "8.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 - number1 ) * number2",
+        "answer": 12.0,
+        "steps": [
+            "number0 - number1",
+            "( number0 - number1 ) * number2"
+        ]
+    },
+    {
+        "task_id": "mawps-375",
+        "question": "There school 's baseball team had number0 new players and number1 returning players. If the coach put them into groups with number2 players in each group, how many groups would there be?",
+        "numbers": {
+            "number0": "12.0",
+            "number1": "44.0",
+            "number2": "8.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 7.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    },
+    {
+        "task_id": "mawps-376",
+        "question": "There are number0 dogwood trees currently in the park. Park workers will plant number1 dogwood trees today and number2 dogwood trees tomorrow. It took number3 workers to finish the work. How many dogwood trees will the park have when the workers are finished?",
+        "numbers": {
+            "number0": "7.0",
+            "number1": "5.0",
+            "number2": "4.0",
+            "number3": "8.0"
+        },
+        "equation": "( number0 + number1 ) + number2",
+        "answer": 16,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) + number2"
+        ]
+    },
+    {
+        "task_id": "mawps-377",
+        "question": "Before the recent housing boom, there were number0 houses in Lawrence County. Now, there are number1 houses. How many houses did developers build during the housing boom?",
+        "numbers": {
+            "number0": "1426.0",
+            "number1": "2000.0"
+        },
+        "equation": "number1 - number0",
+        "answer": 574.0,
+        "steps": [
+            "number1 - number0"
+        ]
+    },
+    {
+        "task_id": "mawps-378",
+        "question": "April 's discount flowers was having a sale where each flower was number0 dollars. If Vanessa bought number1 roses and number2 daisies, how much did she spend?",
+        "numbers": {
+            "number0": "8.0",
+            "number1": "3.0",
+            "number2": "3.0"
+        },
+        "equation": "( number1 + number1 ) * number0",
+        "answer": 48.0,
+        "steps": [
+            "number1 + number1",
+            "( number1 + number1 ) * number0"
+        ]
+    },
+    {
+        "task_id": "mawps-379",
+        "question": "There are number0 pencils and number1 crayons in the drawer. Dan took number2 pencils from the drawer. How many pencils are now in the drawer?",
+        "numbers": {
+            "number0": "34.0",
+            "number1": "49.0",
+            "number2": "22.0"
+        },
+        "equation": "number0 - number2",
+        "answer": 12,
+        "steps": [
+            "number0 - number2"
+        ]
+    },
+    {
+        "task_id": "mawps-380",
+        "question": "There are number0 pencils in the drawer. Sara placed number1 more pencils in the drawer. How many pencils are now there in all?",
+        "numbers": {
+            "number0": "115.0",
+            "number1": "100.0"
+        },
+        "equation": "number0 + number1",
+        "answer": 215.0,
+        "steps": [
+            "number0 + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-381",
+        "question": "During a school play, Jonah staffed the snack bar. He served number0 pitcher of lemonade during the first intermission, number1 pitcher during the second, and number2 pitcher during the third. How many pitchers of lemonade did Jonah pour in all?",
+        "numbers": {
+            "number0": "0.25",
+            "number1": "0.4166666666666667",
+            "number2": "0.25"
+        },
+        "equation": "( number0 + number0 ) + number1",
+        "answer": 0.9166666666666666,
+        "steps": [
+            "number0 + number0",
+            "( number0 + number0 ) + number1"
+        ]
+    },
+    {
+        "task_id": "mawps-382",
+        "question": "I have a pet golden retriever. Each year he gains number0 pounds. He is number1 years old. How many pounds does he weigh?",
+        "numbers": {
+            "number0": "11.0",
+            "number1": "8.0"
+        },
+        "equation": "number0 * number1",
+        "answer": 88.0,
+        "steps": [
+            "number0 * number1"
+        ]
+    },
+    {
+        "task_id": "mawps-383",
+        "question": "Kaleb had saved up number0 dollars. If he received another number1 dollars for his allowance, how many number2 dollar toys could he buy?",
+        "numbers": {
+            "number0": "21.0",
+            "number1": "15.0",
+            "number2": "6.0"
+        },
+        "equation": "( number0 + number1 ) / number2",
+        "answer": 6.0,
+        "steps": [
+            "number0 + number1",
+            "( number0 + number1 ) / number2"
+        ]
+    }
+]

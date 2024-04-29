@@ -1,0 +1,29 @@
+{
+    "equation": "( 0.5 + 0.1 ) + 0.1",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "A spaceship traveled 0.5 light - year from Earth to Planet X and 0.1 light - year from Planet X to Planet Y. Then it traveled 0.1 light - year from Planet Y back to Earth. How many light - years did the spaceship travel in all?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "0.5 + 0.1\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( 0.5 + 0.1 ) + 0.1\nWe are finished."
+        }
+    ]
+}

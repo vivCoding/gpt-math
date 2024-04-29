@@ -1,0 +1,29 @@
+{
+    "equation": "( 9.0 + 7.0 ) / 8.0",
+    "msg_history": [
+        {
+            "role": "system",
+            "content": "You are tasked with solving basic math word problems that have unknown numbers (e.g. number0, number1, etc). You are asked to do it step by step. During each step, you will choose two numbers to perform either addition, subtraction, multiplication, or division. For each step, only respond with the two numbers chosen and the operation to be performed. Then, say if more steps need to be done by saying \"Let us continue\" or \"We are finished\"."
+        },
+        {
+            "role": "user",
+            "content": "Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8.0 trays at a time. If he had to pick up 9.0 trays from one table and 7.0 trays from another, how many trips will he make?"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's do it step by step. First, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "9.0 + 7.0\nLet us continue."
+        },
+        {
+            "role": "assistant",
+            "content": "Next, I will choose these two numbers and operation:"
+        },
+        {
+            "role": "assistant",
+            "content": "( 9.0 + 7.0 ) / 8.0\nWe are finished."
+        }
+    ]
+}
