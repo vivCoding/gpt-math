@@ -56,4 +56,4 @@ SVAMP dataset:
 
 - Try testing with [RobustMath dataset](https://github.com/zhouzihao501/MathAttack)
 - Maybe build thing from scratch (BERT and custom architecture on top) ([maybe](https://arxiv.org/abs/2203.10316v4))
-    - Look into more symbolic approaches
+    - Look into more search approaches with LLM guidance?
